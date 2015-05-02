@@ -13,7 +13,6 @@ def recipe_scanner (node, env, path):
     env.AlwaysBuild(env.Report(dep, []))
     out.append(env.File(dep))
   return out
-  return lines
 
 ReportList = Scanner(function = recipe_scanner,
                       skeys = ['.openaps'])
