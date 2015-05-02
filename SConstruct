@@ -5,23 +5,20 @@ env = Environment( )
 
 import openaps
 
-def monitor_scanner (node, env, path):
+def recipe_scanner (node, env, path):
   lines = [ os.path.basename(l.strip( )) for l in node.get_contents( ).split('\n') \
             if l.strip( ) and not l.strip( ).startswith('#') ]
   out = [ ]
   for dep in lines:
-    print dep, node, path
-    # env.Command(dep, node, """ openaps report invoke $TARGET """)
-    # env.SideEffect(dep, node)
     env.AlwaysBuild(env.Report(dep, []))
     out.append(env.File(dep))
   return out
   return lines
 
-MonitorList = Scanner(function = monitor_scanner,
+ReportList = Scanner(function = recipe_scanner,
                       skeys = ['.openaps'])
 
-env.Append(SCANNERS=MonitorList)
+env.Append(SCANNERS=ReportList)
 
 
 Report = Builder(action="""
@@ -29,13 +26,12 @@ Report = Builder(action="""
   """)
 
 def phase_targets (target, source, env):
-  print "emitting", str(target[0]), str(source), env
   return target, source
 
 Phase = Builder(action = """
   echo $TARGETS -- $SOURCES
   """, src_suffix = '.openaps',
-  target_scanner = MonitorList,
+  target_scanner = ReportList,
   emitter = phase_targets)
 
 env.Append(BUILDERS = { 'Phase': Phase, 'Report': Report })
