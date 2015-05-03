@@ -17,9 +17,6 @@ def recipe_scanner (node, env, path):
 ReportList = Scanner(function = recipe_scanner,
                       skeys = ['.openaps'])
 
-env.Append(SCANNERS=ReportList)
-
-
 Report = Builder(action="""
   openaps report invoke $TARGET
   """)
@@ -30,12 +27,10 @@ def phase_targets (target, source, env):
 Phase = Builder(action = """
   echo $TARGETS -- $SOURCES
   """, src_suffix = '.openaps',
-  target_scanner = ReportList,
   emitter = phase_targets)
 
+env.Append(SCANNERS=ReportList)
 env.Append(BUILDERS = { 'Phase': Phase, 'Report': Report })
 
 env.Phase(Glob('*.openaps'))
-
-
 
