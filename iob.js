@@ -124,6 +124,7 @@
                 }
             }
         }
+        return [ ].concat(tempBoluses).concat(tempHistory);
         return {
             tempBoluses: tempBoluses,
             tempHistory: tempHistory
@@ -153,7 +154,7 @@ if (!module.parent) {
     ,type: "current"
   };
   var all_treatments =  calcTempTreatments( );
-  var treatments = all_treatments.tempBoluses.concat(all_treatments.tempHistory);
+  var treatments = all_treatments; // .tempBoluses.concat(all_treatments.tempHistory);
   treatments.sort(function (a, b) { return a.timestamp > b.timestamp });
   var lastTimestamp = new Date(treatments[treatments.length -1].date + 1000 * 60);
   var iobs = iobTotal(treatments, lastTimestamp);
