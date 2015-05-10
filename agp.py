@@ -3,8 +3,6 @@ AGP - calculate agp values given some glucose text
 """
 
 import dateutil.parser
-from openaps.uses.use import Use
-
 class AGP (object):
   """
   The actual calculator.
@@ -68,6 +66,8 @@ def calc_agp (bucket):
 #
 
 # Inherit from openaps.uses.use.Use class
+from openaps.uses.use import Use
+
 class agp (Use):
   """ Calculate agp
   """
@@ -103,17 +103,40 @@ class agp (Use):
       # calculate agp for all input
       return parser(f.readlines())
 
-# set_config is needed by openaps for all vendors
-# set_config is used by `device add` commands
+# set_config is needed by openaps for all vendors.
+# set_config is used by `device add` commands so save any needed
+# information.
+# See the medtronic builtin module for an example of how to use this
+# to save needed information to establish sessions (serial numbers,
+# etc).
 def set_config (args, device):
+  # no special config
   return
 
+# display_device allows our custom vendor implementation to include
+# special information when displaying information about a device using
+# our plugin as a vendor.
 def display_device (device):
+  # no special information needed to run
   return ''
 
+# openaps calls get_uses to figure out how how to use a device using
+# agp as a vendor.  Return a list of classes which inherit from Use,
+# or are compatible with it:
 def get_uses (device, config):
+  # make agp an openaps use command
   return [ agp ]
 
+######################################################
+# openaps definitions are complete
+######################################################
+
+
+# The remainder is for debugging and testing purposes.
+# This allows running the module from commandline without openaps.
+# this uses no openaps logic, and is useful for debugging/testing
+# this only runs when run as:
+# $ python agp.py
 if __name__ == '__main__':
   parser = AGP( )
   with open("glucose.txt") as f:
