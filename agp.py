@@ -28,20 +28,6 @@ class AGP (object):
       stats.append((hour, calc_agp(self.hour_buckets[hour])))
     return stats
 
-"""
-with open("glucose.txt") as f:
-  lines = f.readlines()
-  for line in lines:
-    (time, glucose, trend) = line.strip().split()
-    datetime = dateutil.parser.parse(time)
-    glucose = int(glucose)
-    if (glucose >= 39):
-      # print datetime.hour, glucose, trend
-      values.append((datetime, glucose, trend))
-      bucket = hour_buckets.get(datetime.hour, [])
-      bucket.append(glucose)
-"""
-
 def calc_agp (bucket):
   vals_sorted = sorted(bucket)
   # print vals_sorted, bucket
@@ -87,10 +73,6 @@ def display_device (device):
 def get_uses (device, config):
   return [ agp ]
 
-"""
-for hour in range(0,24):
-  print hour, agp(hour_buckets[hour])
-"""
 if __name__ == '__main__':
   parser = AGP( )
   with open("glucose.txt") as f:
