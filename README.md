@@ -11,19 +11,32 @@ Let's say you have a `node` js script called `iob.js`:
 
     openaps device add calciob process --require input node iob.js
 
-that says: create a device called "calciob" which runs the script "node iob.js" and has one argument, we'll refer to as "input"
-then openaps use --format text calciob shell pump-history.json or similar can be used to try it out
-then, when comfy, save the report config: openaps report add iob.json text calciob shell pump-history.json
-that says: create a report called iob.json, which is the usage of device calciob, usage shell, (which is running node iob.js) with the argument pump-history.json... since it's a process that happens to always print json, we're using the text output to save it as-is
+Which says: create a device called "calciob" which runs the script
+`node iob.js` and has one argument, we'll refer to as `input`
+Then `openaps use --format text calciob shell pump-history.json` or
+similar can be used to try it out.
+
+```bash
+bewest@hither:~/Documents/foo$
+ $ openaps use --format text calciob shell pump-history.json 
+{"iob":1.4710394611199997,"activity":0.04893333333333332}
+bewest@hither:~/Documents/foo$
+```
+
+When comfy, save the report configuration with:
+
+    openaps report add iob.json text calciob shell pump-history.json
+
+which says: create a **report** called `iob.json`, which is the
+_usage_ of **device** `calciob`, _usage_ `shell`, (which is running
+`node iob.js`) with the argument `pump-history.json`... Since this
+node script happens to always print json, we're using the `text` output
+to save it as-is:
 
 ```bash
 $ openaps report  invoke  iob.json 
 calciob://text/shell/iob.json
 reporting iob.json
-bewest@hither:~/Documents/foo$
- $ openaps use --format text calciob shell pump-history.json 
-{"iob":1.4710394611199997,"activity":0.04893333333333332}
-bewest@hither:~/Documents/foo$
 ```
 
 so now it supports python python plugins plus arbitrary commands 
