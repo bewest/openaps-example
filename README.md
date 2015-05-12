@@ -40,8 +40,10 @@ calciob://text/shell/iob.json
 reporting iob.json
 ```
 
-so now it supports python python plugins plus arbitrary commands 
-this is what my openaps use menu looks like now:
+## OpenAps `use` commands adapt to your vendors and devices
+
+After configuring some devices and custom vendors,
+this is what my `openaps use` menu looks like now:
 ```bash
 $ openaps use -h
 usage: openaps-use [-h] [--format {text,json,base,stdout}] [--output OUTPUT]
@@ -59,6 +61,10 @@ positional arguments:
     pump                Medtronic - openaps driver for Medtronic
 ```
 
+Four **device**s in the menu, all of them support `-h` output:
+
+#### `process` vendor has a `shell` command
+
 ```bash
 $ openaps use calciob -h
 usage: openaps-use calciob [-h] {shell} ...
@@ -74,7 +80,7 @@ optional arguments:
 We can see that the `input` argument is also expected.
 
 ```bash
-$ openaps use calciob -h
+$ openaps use calciob shell -h
 usage: openaps-use calciob shell [-h] input
 
 positional arguments:
@@ -126,7 +132,8 @@ optional arguments:
   --path PATH  Path to module's namespace
 ```
 
-It knows if it's not a python module:
+It knows if it's not a python module, let's try adding a non-existant
+module to see if anything bad happens:
 
 ```bash
 $ openaps vendor add not-a-real-module
@@ -136,6 +143,8 @@ If it is a python module, try using --path to influence
 PYTHONPATH
       
 ```
+
+`agp.py` is a valid python module, let's add that:
 
 ```bash
 $ ls agp.py
@@ -165,7 +174,7 @@ optional arguments:
 ```
 
 
-Add device:
+Adding a device:
 
 ```bash
 + openaps device add my-agp agp -h
@@ -178,7 +187,11 @@ optional arguments:
 added agp://my-agp
 ```
 
-Now we can **use** it.
+This adds a **device** named `my-agp` using the python module called
+`agp`.
+
+Now we can **use**, **use** commands are derived from previously
+registered **device**s.
 
 ## `openaps use`!
 
@@ -223,7 +236,8 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
-It even has it's own usage:
+It even has it's own `-h` help system.
+
 ```bash
 + openaps use my-agp agp -h
 usage: openaps-use my-agp agp [-h] input
@@ -241,4 +255,8 @@ Demonstrate usage:
 + openaps use --format text my-agp agp glucose.txt
 [(0, (86, 121, 156, 222, 392)), (1, (39, 137, 155, 249, 318)), (2, (72, 124, 167, 247, 302)), (3, (97, 121, 168, 252, 339)), (4, (102, 143, 189, 241, 338)), (5, (103, 144, 171, 211, 327)), (6, (104, 157, 169, 204, 304)), (7, (103, 137, 185, 212, 302)), (8, (87, 95, 200, 252, 323)), (9, (74, 108, 195, 256, 278)), (10, (62, 103, 173, 241, 251)), (11, (100, 150, 171, 224, 250)), (12, (94, 132, 154, 194, 307)), (13, (76, 112, 141, 202, 248)), (14, (76, 100, 133, 180, 235)), (15, (77, 94, 121, 146, 197)), (16, (70, 78, 118, 150, 173)), (17, (61, 90, 114, 148, 163)), (18, (85, 93, 123, 152, 161)), (19, (65, 86, 121, 138, 199)), (20, (51, 67, 103, 117, 296)), (21, (39, 84, 99, 147, 289)), (22, (59, 83, 109, 165, 214)), (23, (87, 98, 131, 157, 304))]
 ```
+
+This says, **use** **device** known as `my-agp`, running the `agp`
+**use** with the `glucose.txt` as the `input` argument.  We're using
+the `text` formatter here to reduce the number of lines.
 
