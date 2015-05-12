@@ -11,9 +11,10 @@ Let's say you have a `node` js script called `iob.js`:
 
     openaps device add calciob process --require input node iob.js
 
-Which says: create a device called "calciob" which runs the script
-`node iob.js` and has one argument, we'll refer to as `input`
-Then `openaps use --format text calciob shell pump-history.json` or
+Which says: create a **device** implemented by openaps **vendor**
+`process`, called `calciob` which runs the script
+`node iob.js` and has one argument, we'll refer to as `input` Then
+`openaps use --format text calciob shell pump-history.json` or
 similar can be used to try it out.
 
 ```bash
