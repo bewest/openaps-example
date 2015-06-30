@@ -77,6 +77,7 @@
                     var temp = {};
                     temp.timestamp = current.timestamp;
                     temp.started_at = new Date(current.date);
+                    temp.started_at = new Date(current.date);
                     temp.date = current.date
                     temp.insulin = current.amount
                     tempBoluses.push(temp);
