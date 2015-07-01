@@ -1,5 +1,64 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 321, 
+    "bg_target_high": 125, 
+    "correction_estimate": 1.1, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-06-30T22:36:56 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-06-30T22:36:56", 
+    "_body": "00510f2d6a2b0000000700247d", 
+    "carb_input": 0, 
+    "_head": "5b41", 
+    "unabsorbed_insulin_total": 0.7, 
+    "_byte[5]": 43, 
+    "date": 1435732616000.0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "78a4161e0f", 
+    "bolus_estimate": 3.6, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 4.2, 
+            "age": 182
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05a8b604", 
+        "_date": ""
+      }
+    ], 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-06-30T22:36:52 head[2], body[0] op[0x0a]", 
+    "date": 1435732612000.0, 
+    "timestamp": "2015-06-30T22:36:52", 
+    "_body": "", 
+    "_head": "0a41", 
+    "amount": 321, 
+    "_date": "74a4361e8f"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-06-30T22:31:45 head[2], body[0] op[0x0a]", 
+    "date": 1435732305000.0, 
+    "timestamp": "2015-06-30T22:31:45", 
+    "_body": "", 
+    "_head": "0a6a", 
+    "amount": 106, 
+    "_date": "6d9f361e0f"
+  }, 
+  {
     "_type": "ChangeTimeDisplay", 
     "_description": "ChangeTimeDisplay 2015-06-30T21:56:03 head[2], body[0] op[0x64]", 
     "date": 1435730163000.0, 
@@ -1472,38 +1531,5 @@
     "food_estimate": 5.7, 
     "bg_target_low": 106, 
     "sensitivity": 45
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2015-06-16T01:14:31 head[5], body[0] op[0x03]", 
-    "date": 1434446071000.0, 
-    "timestamp": "2015-06-16T01:14:31", 
-    "_body": "", 
-    "fixed": 0.5, 
-    "_head": "0300050005", 
-    "amount": 0.5, 
-    "_date": "5f8e01100f"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2015-06-16T01:13:28 head[5], body[0] op[0x03]", 
-    "date": 1434446008000.0, 
-    "timestamp": "2015-06-16T01:13:28", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "030000008d", 
-    "amount": 14.1, 
-    "_date": "5c8d21100f"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2015-06-16T01:06:30 head[2], body[0] op[0x21]", 
-    "date": 1434445590000.0, 
-    "timestamp": "2015-06-16T01:06:30", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "5e8601100f"
   }
 ]
