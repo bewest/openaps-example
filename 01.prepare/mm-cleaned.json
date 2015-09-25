@@ -1,5 +1,40 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-09-25T13:35:19 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-09-25T13:35:19", 
+    "_body": "", 
+    "programmed": 1.3, 
+    "_head": "010d0d00", 
+    "amount": 1.3, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "93634d190f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_byte[5]": 0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-09-25T13:35:19 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-09-25T13:35:19", 
+    "_body": "00500f2d6a000000000000007d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "carb_input": 0, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.0, 
+    "_date": "93630d190f", 
+    "bg_target_low": 106
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-09-25T01:58:23 head[2], body[0] op[0x16]", 
     "timestamp": "2015-09-25T01:58:23", 
@@ -1621,69 +1656,5 @@
     "_head": "0ab5", 
     "amount": 181, 
     "_date": "845a2d130f"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-09-19T13:23:20 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-09-19T13:23:20", 
-    "_body": "", 
-    "_head": "0aa5", 
-    "amount": 165, 
-    "_date": "94572d130f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-09-19T12:45:57 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-09-19T12:45:57", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[26], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c1a2083042cab041405141c0f140c2314749b144ca51438af14", 
-        "data": [
-          {
-            "amount": 0.8, 
-            "age": 131
-          }, 
-          {
-            "amount": 1.1, 
-            "age": 171
-          }, 
-          {
-            "amount": 0.5, 
-            "age": 261
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 271
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 291
-          }, 
-          {
-            "amount": 2.9, 
-            "age": 411
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 421
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 431
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 3.2, 
-    "duration": 0, 
-    "amount": 3.2, 
-    "_head": "01202000", 
-    "type": "normal", 
-    "_date": "b96d4c130f"
   }
 ]
