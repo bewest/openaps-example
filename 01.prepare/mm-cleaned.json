@@ -1,5 +1,64 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-09-24T23:04:33 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-09-24T23:04:33", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c051c7804", 
+        "data": [
+          {
+            "amount": 0.7, 
+            "age": 120
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 3.8, 
+    "duration": 0, 
+    "amount": 3.8, 
+    "_head": "01262600", 
+    "type": "normal", 
+    "_date": "a14457180f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 78, 
+    "_byte[5]": 250, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-09-24T23:04:33 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-09-24T23:04:33", 
+    "_body": "42500f2d6afa2cf0000400267d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 4.4, 
+    "unabsorbed_insulin_total": 0.4, 
+    "correction_estimate": -0.6, 
+    "carb_input": 66, 
+    "_head": "5b4e", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 240, 
+    "bolus_estimate": 3.8, 
+    "_date": "a14417180f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-09-24T23:04:14 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-09-24T23:04:14", 
+    "_body": "", 
+    "_head": "0a4e", 
+    "amount": 78, 
+    "_date": "8e4437180f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-09-24T21:17:23 head[2], body[0] op[0x16]", 
     "timestamp": "2015-09-24T21:17:23", 
@@ -1747,33 +1806,5 @@
     "_head": "0ab6", 
     "amount": 182, 
     "_date": "aa5229130f"
-  }, 
-  {
-    "_type": "PumpResume", 
-    "_description": "PumpResume 2015-09-19T08:42:22 head[2], body[0] op[0x1f]", 
-    "timestamp": "2015-09-19T08:42:22", 
-    "_body": "", 
-    "_head": "1f00", 
-    "_date": "966a08130f"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2015-09-19T08:29:10 head[2], body[0] op[0x1e]", 
-    "timestamp": "2015-09-19T08:29:10", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "8a5d08130f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-09-19T08:25:45 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-09-19T08:25:45", 
-    "_body": "", 
-    "programmed": 0.5, 
-    "_head": "01050500", 
-    "amount": 0.5, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "ad5948130f"
   }
 ]
