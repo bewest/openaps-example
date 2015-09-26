@@ -1,5 +1,17 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-09-25T23:34:02 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-09-25T23:34:02", 
+    "_body": "", 
+    "programmed": 2.2, 
+    "_head": "01161603", 
+    "amount": 2.2, 
+    "duration": 90, 
+    "type": "square", 
+    "_date": "8262b7190f"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-09-26T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2015-09-26T00:00:00", 
@@ -1382,28 +1394,5 @@
     "_head": "011f1f00", 
     "type": "normal", 
     "_date": "947095140f"
-  }, 
-  {
-    "unknown_byte[8]": 0, 
-    "_type": "BolusWizard", 
-    "bg": 98, 
-    "_byte[5]": 254, 
-    "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2015-09-20T21:48:19 head[2], body[13] op[0x5b]", 
-    "timestamp": "2015-09-20T21:48:19", 
-    "_body": "50500f2d6afe35f0000000337d", 
-    "bg_target_high": 125, 
-    "sensitivity": 45, 
-    "carb_ratio": 15, 
-    "food_estimate": 5.3, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": -0.2, 
-    "carb_input": 80, 
-    "_head": "5b62", 
-    "unabsorbed_insulin_count": "??", 
-    "_byte[7]": 240, 
-    "bolus_estimate": 5.1, 
-    "_date": "937015140f", 
-    "bg_target_low": 106
   }
 ]
