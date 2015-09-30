@@ -1,5 +1,21 @@
 [
   {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-09-30T00:00:00 head[1], body[41] op[0x6d]", 
+    "timestamp": "2015-09-30T00:00:00", 
+    "_body": "05110de934030000066e034a33032431006d032431014c2901d03a00080109010501020c00e8000000", 
+    "_head": "6d", 
+    "_date": "9d8f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-09-30T00:00:00 head[5], body[0] op[0x07]", 
+    "timestamp": "2015-09-30T00:00:00", 
+    "_body": "", 
+    "_head": "070000066e", 
+    "_date": "9d8f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-09-29T23:50:47 head[2], body[0] op[0x16]", 
     "timestamp": "2015-09-29T23:50:47", 
@@ -1541,52 +1557,5 @@
     "_head": "333e", 
     "rate": 1.55, 
     "_date": "b077175b0f"
-  }, 
-  {
-    "programmed": 1.1, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-09-27T22:52:33 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-09-27T22:52:33", 
-    "_body": "", 
-    "_head": "010b0b02", 
-    "amount": 1.1, 
-    "duration": 60, 
-    "type": "square", 
-    "_date": "a174b61b0f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-09-27T22:51:42 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-09-27T22:51:42", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c0b5c2f0414331448c914", 
-        "data": [
-          {
-            "amount": 2.3, 
-            "age": 47
-          }, 
-          {
-            "amount": 0.5, 
-            "age": 307
-          }, 
-          {
-            "amount": 1.8, 
-            "age": 457
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 1.3, 
-    "_head": "010d0d00", 
-    "amount": 1.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "aa73961b0f"
   }
 ]
