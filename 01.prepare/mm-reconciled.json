@@ -1,11 +1,30 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-10-02T00:51:00 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-10-02T00:51:00", 
+    "_body": "", 
+    "_head": "1600", 
+    "duration (min)": 0, 
+    "_date": "80b300420f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-10-02T00:51:00 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-10-02T00:51:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "80b300420f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-10-02T00:35:52 head[2], body[0] op[0x16]", 
     "timestamp": "2015-10-02T00:35:52", 
     "_body": "", 
     "_head": "1601", 
-    "duration (min)": 30, 
+    "duration (min)": 15, 
     "_date": "b4a300420f"
   }, 
   {
@@ -1153,22 +1172,7 @@
     "_date": "9e4a011e0f"
   }, 
   {
-    "_type": "Prime", 
-    "_description": "Prime 2015-09-30T01:10:24 head[5], body[0] op[0x03]", 
-    "timestamp": "2015-09-30T01:10:24", 
-    "_body": "", 
-    "_head": "03001d0001", 
-    "amount": 0.1, 
-    "fixed": 2.9, 
-    "type": "fixed", 
-    "_date": "984a011e0f"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2015-09-30T01:10:28 head[2], body[0] op[0x1e]", 
-    "timestamp": "2015-09-30T01:10:28", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "9c4a011e0f"
+    "timestamp": "2015-09-30T01:10:30", 
+    "_type": "PumpSuspend"
   }
 ]
