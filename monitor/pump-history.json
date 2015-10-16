@@ -1,5 +1,96 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-10-15T23:26:31 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-15T23:26:31", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 100
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 110
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 120
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 130
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 140
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 150
+          }, 
+          {
+            "amount": 2.4, 
+            "age": 160
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 180
+          }, 
+          {
+            "amount": 1.3, 
+            "age": 270
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c1d0c6404126e04127804148204128c0412960460a00428b404340e14", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.1, 
+    "_head": "010b0b00", 
+    "amount": 1.1, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "9f9a570f0f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 185, 
+    "bg_target_high": 125, 
+    "correction_estimate": 1.3, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-15T23:26:31 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-15T23:26:31", 
+    "_body": "00500f2d6a0d0000001300007d", 
+    "carb_input": 0, 
+    "_head": "5bb9", 
+    "unabsorbed_insulin_total": 1.9, 
+    "_byte[5]": 13, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "9f9a170f0f", 
+    "bolus_estimate": 0.0, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-10-15T23:26:19 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-10-15T23:26:19", 
+    "_body": "", 
+    "_head": "0ab9", 
+    "amount": 185, 
+    "_date": "939a370f0f"
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2015-10-15T22:59:50 head[2], body[0] op[0x0a]", 
     "timestamp": "2015-10-15T22:59:50", 
