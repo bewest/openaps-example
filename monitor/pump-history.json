@@ -1,5 +1,74 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-10-21T00:12:38 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-21T00:12:38", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.8, 
+            "age": 396
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05208c14", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 4.9, 
+    "_head": "01313100", 
+    "amount": 4.9, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "a68c40150f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 131, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.1, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-21T00:12:38 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-21T00:12:38", 
+    "_body": "3f500d2d6a013000000000317d", 
+    "carb_input": 63, 
+    "_head": "5b83", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 1, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "a68c00150f", 
+    "bolus_estimate": 4.9, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 13, 
+    "food_estimate": 4.8, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-10-21T00:12:30 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-10-21T00:12:30", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "9e8c00550f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-10-21T00:12:30 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-10-21T00:12:30", 
+    "_body": "00", 
+    "_head": "3337", 
+    "rate": 1.375, 
+    "_date": "9e8c00550f"
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2015-10-21T00:11:38 head[2], body[0] op[0x0a]", 
     "timestamp": "2015-10-21T00:11:38", 
