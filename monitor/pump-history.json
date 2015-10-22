@@ -1,5 +1,55 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-10-22T13:11:38 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-22T13:11:38", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 2.7, 
+            "age": 375
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c056c7714", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.1, 
+    "_head": "01010100", 
+    "amount": 0.1, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "a68b4d160f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-22T13:11:38 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-22T13:11:38", 
+    "_body": "00500f2d6a000000000000007d", 
+    "carb_input": 0, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "a68b0d160f", 
+    "bolus_estimate": 0.0, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
     "programmed": 2.7, 
     "_type": "Bolus", 
     "type": "normal", 
@@ -42,30 +92,5 @@
     "_head": "0aef", 
     "amount": 239, 
     "_date": "a28327160f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-10-22T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2015-10-22T00:00:00", 
-    "_body": "05008a6aa1060000066a03e23d028827008402882701783a01102a00000006010401000c00e8000000", 
-    "_head": "6d", 
-    "_date": "b50f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-10-22T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2015-10-22T00:00:00", 
-    "_body": "", 
-    "_head": "070000066a", 
-    "_date": "b50f"
-  }, 
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2015-10-21T23:33:20 head[2], body[0] op[0x34]", 
-    "timestamp": "2015-10-21T23:33:20", 
-    "_body": "", 
-    "_head": "3464", 
-    "amount": 10.0, 
-    "_date": "94a117150f"
   }
 ]
