@@ -1,5 +1,83 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-10-21T20:29:30 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-21T20:29:30", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c05207514", 
+        "data": [
+          {
+            "amount": 0.8, 
+            "age": 373
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.8, 
+    "duration": 0, 
+    "amount": 0.8, 
+    "_head": "01080800", 
+    "type": "normal", 
+    "_date": "9e9d54150f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 140, 
+    "_byte[5]": 3, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-21T20:29:30 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-21T20:29:30", 
+    "_body": "00500f2d6a030000000000037d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.3, 
+    "carb_input": 0, 
+    "_head": "5b8c", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.3, 
+    "_date": "9e9d14150f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-10-21T20:29:17 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-10-21T20:29:17", 
+    "_body": "", 
+    "_head": "0a8c", 
+    "amount": 140, 
+    "_date": "919d34150f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-10-21T20:22:31 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-10-21T20:22:31", 
+    "_body": "", 
+    "_head": "1600", 
+    "duration (min)": 0, 
+    "_date": "9f9614550f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-10-21T20:22:31 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-10-21T20:22:31", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "9f9614550f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-10-21T20:12:28 head[2], body[0] op[0x16]", 
     "timestamp": "2015-10-21T20:12:28", 
