@@ -1,6 +1,81 @@
 [
   {
     "_type": "Bolus", 
+    "_description": "Bolus 2015-10-25T10:54:09 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-25T10:54:09", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.9, 
+            "age": 48
+          }, 
+          {
+            "amount": 3.0, 
+            "age": 118
+          }, 
+          {
+            "amount": 2.7, 
+            "age": 248
+          }, 
+          {
+            "amount": 4.25, 
+            "age": 378
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 388
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c112430047876046cf804aa7a14128414", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.5, 
+    "_head": "01050500", 
+    "amount": 0.5, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "89b64a190f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 237, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.8, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-25T10:54:09 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-25T10:54:09", 
+    "_body": "00500f2d6a180000001600027d", 
+    "carb_input": 0, 
+    "_head": "5bed", 
+    "unabsorbed_insulin_total": 2.2, 
+    "_byte[5]": 24, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "89b60a190f", 
+    "bolus_estimate": 0.2, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-10-25T10:54:04 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-10-25T10:54:04", 
+    "_body": "", 
+    "_head": "0aed", 
+    "amount": 237, 
+    "_date": "84b62a190f"
+  }, 
+  {
+    "_type": "Bolus", 
     "_description": "Bolus 2015-10-25T10:14:57 head[4], body[0] op[0x01]", 
     "timestamp": "2015-10-25T10:14:57", 
     "_body": "", 
