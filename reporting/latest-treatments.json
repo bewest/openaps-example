@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "carbs": "76", 
+    "bg": "167", 
+    "ratio": "15", 
+    "timestamp": "2015-10-27T23:08:48-07:00", 
+    "created_at": "2015-10-27T23:08:48-07:00", 
+    "wizard": {
+      "_byte[5]": 9, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2015-10-27T23:08:48 head[2], body[13] op[0x5b]", 
+      "bg_target_low": 106, 
+      "_body": "4c500f2d6a0932000000003b7d", 
+      "correction_estimate": 0.9, 
+      "_byte[7]": 0, 
+      "bolus_estimate": 5.9, 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c05384214", 
+          "data": [
+            {
+              "amount": 1.4, 
+              "age": 322
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "food_estimate": 5, 
+      "timestamp": "2015-10-27T23:08:48-07:00", 
+      "sensitivity": 45, 
+      "_type": "BolusWizard", 
+      "bg": 167, 
+      "_head": "5ba7", 
+      "carb_input": 76, 
+      "bg_target_high": 125, 
+      "unabsorbed_insulin_total": 0, 
+      "unabsorbed_insulin_count": "??", 
+      "_date": "b088171b0f", 
+      "unknown_byte[8]": 0, 
+      "carb_ratio": 15
+    }, 
+    "enteredBy": "openaps://medtronic/522", 
+    "insulin": 0, 
+    "eventType": "Carb Correction", 
+    "glucose": "167", 
+    "notes": "Food estimate 5\nCorrection estimate 0.9\nBolus estimate 5.9\nTarget low 106\nTarget high 125\nHypothetical glucose delta 0\nGlucose was: 167", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction", 
+    "glucoseType": "BolusWizard"
+  }, 
+  {
+    "created_at": "2015-10-27T23:08:23-07:00", 
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-10-27T23:08:23 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-10-27T23:08:23-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0aa7", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 167, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "<none>", 
+    "notes": "Pump received finger stick.", 
+    "_date": "9788371b0f", 
+    "glucose": 167
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2015-10-27T23:07:23 head[2], body[1] op[0x33]", 
+      "timestamp": "2015-10-27T23:07:23-07:00", 
+      "_body": "00", 
+      "_head": "3300", 
+      "rate": 0, 
+      "_date": "9787175b0f"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2015-10-27T23:07:23 head[2], body[0] op[0x16]", 
+      "timestamp": "2015-10-27T23:07:23-07:00", 
+      "_body": "", 
+      "_head": "1600", 
+      "duration (min)": 0, 
+      "_date": "9787175b0f"
+    }, 
+    "created_at": "2015-10-27T23:07:23-07:00", 
+    "enteredBy": "openaps://medtronic/522", 
+    "rate": 0, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2015-10-27T23:07:23-07:00", 
+    "duration": "0", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0"
+  }
+]
