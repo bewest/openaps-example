@@ -1,5 +1,100 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-10-30T01:21:18 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-10-30T01:21:18-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[32], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c200c73040e7d040c87040c91040c9b040ca5040eaf040cb9041ac3047ecd04", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 115
+          }, 
+          {
+            "amount": 0.35, 
+            "age": 125
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 135
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 145
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 155
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 165
+          }, 
+          {
+            "amount": 0.35, 
+            "age": 175
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 185
+          }, 
+          {
+            "amount": 0.65, 
+            "age": 195
+          }, 
+          {
+            "amount": 3.15, 
+            "age": 205
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.7, 
+    "duration": 0, 
+    "amount": 0.7, 
+    "_head": "01070700", 
+    "type": "normal", 
+    "_date": "9295411e0f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 214, 
+    "_byte[5]": 19, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-10-30T01:21:18 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-10-30T01:21:18-07:00", 
+    "_body": "00500d2d6a130000000c00077d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 13, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 1.2, 
+    "correction_estimate": 0.3, 
+    "carb_input": 0, 
+    "_head": "5bd6", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.7, 
+    "_date": "9295011e0f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-10-30T01:21:13 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-10-30T01:21:13-07:00", 
+    "_body": "", 
+    "_head": "0ad6", 
+    "amount": 214, 
+    "_date": "8d95211e0f"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-10-30T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2015-10-30T00:00:00-07:00", 
