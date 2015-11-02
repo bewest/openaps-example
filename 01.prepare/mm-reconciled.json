@@ -1,11 +1,80 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-11-02T02:46:59 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-11-02T02:46:59", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c05a0bf14", 
+        "data": [
+          {
+            "amount": 4.0, 
+            "age": 447
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.2, 
+    "_head": "010c0c00", 
+    "amount": 1.2, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "bbee42020f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-02T02:46:59 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-02T02:46:59", 
+    "_body": "10500d2d6a000c000000000c7d", 
+    "unknown_byte[8]": 0, 
+    "bolus_estimate": 1.2, 
+    "carb_ratio": 13, 
+    "food_estimate": 1.2, 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "carb_input": 16, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "sensitivity": 45, 
+    "_date": "bbee02020f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-11-02T02:44:22 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-11-02T02:44:22", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "96ec02420f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-11-02T02:44:22 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-11-02T02:44:22", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "96ec02420f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-11-02T02:39:29 head[2], body[0] op[0x16]", 
     "timestamp": "2015-11-02T02:39:29", 
     "_body": "", 
     "_head": "1601", 
-    "duration (min)": 30, 
+    "duration (min)": 4, 
     "_date": "9de702420f"
   }, 
   {
