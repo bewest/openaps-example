@@ -1,18 +1,31 @@
 [
   {
-    "created_at": "2015-11-03T23:45:00-08:00", 
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-03T23:45:00 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-03T23:45:00-08:00", 
-    "_body": "", 
-    "glucoseType": "Finger", 
-    "_head": "0ab4", 
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2015-11-03T23:48:13 head[2], body[1] op[0x33]", 
+      "timestamp": "2015-11-03T23:48:13-08:00", 
+      "_body": "00", 
+      "_head": "3383", 
+      "rate": 3.275, 
+      "_date": "8df017430f"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2015-11-03T23:48:13 head[2], body[0] op[0x16]", 
+      "timestamp": "2015-11-03T23:48:13-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "8df017430f"
+    }, 
+    "created_at": "2015-11-03T23:48:13-08:00", 
     "enteredBy": "openaps://medtronic/522", 
-    "amount": 180, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
-    "eventType": "<none>", 
-    "notes": "Pump received finger stick.", 
-    "_date": "80ed37030f", 
-    "glucose": 180
+    "rate": 3.275, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2015-11-03T23:48:13-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "3.275"
   }
 ]
