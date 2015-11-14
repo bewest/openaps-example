@@ -1,100 +1,31 @@
 [
   {
-    "_type": "ChangeBasalProfile_new_profile", 
-    "_description": "ChangeBasalProfile_new_profile 2015-11-13T18:03:18 head[2], body[145] op[0x09]", 
-    "notes": "ChangeBasalProfile_new_profile 522 ", 
-    "timestamp": "2015-11-13T18:03:18-08:00", 
-    "_body": "001c000d2a00132c001b240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0904", 
-    "enteredBy": "openaps://medtronic/522", 
-    "rate": "offset", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_new_profile", 
-    "eventType": "Note", 
-    "created_at": "2015-11-13T18:03:18-08:00", 
-    "_date": "92c3320d0f"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_old_profile", 
-    "_description": "ChangeBasalProfile_old_profile 2015-11-13T18:03:18 head[2], body[145] op[0x08]", 
-    "notes": "ChangeBasalProfile_old_profile 522 ", 
-    "timestamp": "2015-11-13T18:03:18-08:00", 
-    "_body": "001c000d2a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0802", 
-    "enteredBy": "openaps://medtronic/522", 
-    "rate": "offset", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_old_profile", 
-    "eventType": "Note", 
-    "created_at": "2015-11-13T18:03:18-08:00", 
-    "_date": "92c3320d0f"
-  }, 
-  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
-      "_description": "TempBasal 2015-11-13T18:02:49 head[2], body[1] op[0x33]", 
-      "timestamp": "2015-11-13T18:02:49-08:00", 
+      "_description": "TempBasal 2015-11-13T18:07:45 head[2], body[1] op[0x33]", 
+      "timestamp": "2015-11-13T18:07:45-08:00", 
       "_body": "00", 
-      "_head": "3300", 
-      "rate": 0, 
-      "_date": "b1c2124d0f"
+      "_head": "3312", 
+      "rate": 0.45, 
+      "_date": "adc7124d0f"
     }, 
     "raw_duration": {
       "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2015-11-13T18:02:49 head[2], body[0] op[0x16]", 
-      "timestamp": "2015-11-13T18:02:49-08:00", 
+      "_description": "TempBasalDuration 2015-11-13T18:07:45 head[2], body[0] op[0x16]", 
+      "timestamp": "2015-11-13T18:07:45-08:00", 
       "_body": "", 
-      "_head": "1600", 
-      "duration (min)": 0, 
-      "_date": "b1c2124d0f"
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "adc7124d0f"
     }, 
-    "created_at": "2015-11-13T18:02:49-08:00", 
+    "created_at": "2015-11-13T18:07:45-08:00", 
     "enteredBy": "openaps://medtronic/522", 
-    "rate": 0, 
+    "rate": 0.45, 
     "eventType": "Temp Basal", 
-    "timestamp": "2015-11-13T18:02:49-08:00", 
-    "duration": "0", 
+    "timestamp": "2015-11-13T18:07:45-08:00", 
+    "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_new_profile", 
-    "_description": "ChangeBasalProfile_new_profile 2015-11-13T18:02:36 head[2], body[145] op[0x09]", 
-    "notes": "ChangeBasalProfile_new_profile 522 ", 
-    "timestamp": "2015-11-13T18:02:36-08:00", 
-    "_body": "001c000d2a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0902", 
-    "enteredBy": "openaps://medtronic/522", 
-    "rate": "offset", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_new_profile", 
-    "eventType": "Note", 
-    "created_at": "2015-11-13T18:02:36-08:00", 
-    "_date": "a4c2320d0f"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_old_profile", 
-    "_description": "ChangeBasalProfile_old_profile 2015-11-13T18:02:36 head[2], body[145] op[0x08]", 
-    "notes": "ChangeBasalProfile_old_profile 522 ", 
-    "timestamp": "2015-11-13T18:02:36-08:00", 
-    "_body": "3f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0800", 
-    "enteredBy": "openaps://medtronic/522", 
-    "rate": "offset", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_old_profile", 
-    "eventType": "Note", 
-    "created_at": "2015-11-13T18:02:36-08:00", 
-    "_date": "a4c2320d0f"
-  }, 
-  {
-    "_type": "SelectBasalProfile", 
-    "_description": "SelectBasalProfile 2015-11-13T18:02:36 head[2], body[0] op[0x14]", 
-    "notes": "SelectBasalProfile 522 ", 
-    "timestamp": "2015-11-13T18:02:36-08:00", 
-    "_body": "", 
-    "_head": "1400", 
-    "enteredBy": "openaps://medtronic/522", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/SelectBasalProfile", 
-    "eventType": "Note", 
-    "created_at": "2015-11-13T18:02:36-08:00", 
-    "_date": "a4c2320d0f"
+    "absolute": "0.45"
   }
 ]
