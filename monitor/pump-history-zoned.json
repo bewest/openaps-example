@@ -1,5 +1,73 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-11-14T22:50:12 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-11-14T22:50:12-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c05503404", 
+        "data": [
+          {
+            "amount": 2.0, 
+            "age": 52
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.2, 
+    "duration": 0, 
+    "amount": 2.2, 
+    "_head": "01161600", 
+    "type": "normal", 
+    "_date": "8cf2560e0f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 152, 
+    "_byte[5]": 6, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-14T22:50:12 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-14T22:50:12-08:00", 
+    "_body": "21500f2d6a061600001200167d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 2.2, 
+    "unabsorbed_insulin_total": 1.8, 
+    "correction_estimate": 0.6, 
+    "carb_input": 33, 
+    "_head": "5b98", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 2.2, 
+    "_date": "8cf2160e0f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-11-14T22:49:49 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-11-14T22:49:49-08:00", 
+    "_body": "", 
+    "_head": "0a98", 
+    "amount": 152, 
+    "_date": "b1f1360e0f"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-11-14T22:49:20 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-11-14T22:49:20-08:00", 
+    "_body": "", 
+    "_head": "0a99", 
+    "amount": 153, 
+    "_date": "94f1360e0f"
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2015-11-14T22:29:26 head[2], body[0] op[0x0a]", 
     "timestamp": "2015-11-14T22:29:26-08:00", 
