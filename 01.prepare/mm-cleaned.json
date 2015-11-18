@@ -1,5 +1,80 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-11-17T20:25:57 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-11-17T20:25:57", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c11084d041c6104306b044c7504681514", 
+        "data": [
+          {
+            "amount": 0.2, 
+            "age": 77
+          }, 
+          {
+            "amount": 0.7, 
+            "age": 97
+          }, 
+          {
+            "amount": 1.2, 
+            "age": 107
+          }, 
+          {
+            "amount": 1.9, 
+            "age": 117
+          }, 
+          {
+            "amount": 2.6, 
+            "age": 277
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.3, 
+    "duration": 0, 
+    "amount": 2.3, 
+    "_head": "01171700", 
+    "type": "normal", 
+    "_date": "b9d954110f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 232, 
+    "_byte[5]": 23, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-17T20:25:56 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-17T20:25:56", 
+    "_body": "22500f2d6a171600001600177d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 2.2, 
+    "unabsorbed_insulin_total": 2.2, 
+    "correction_estimate": 0.7, 
+    "carb_input": 34, 
+    "_head": "5be8", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 2.3, 
+    "_date": "b8d914110f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-11-17T20:25:38 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-11-17T20:25:38", 
+    "_body": "", 
+    "_head": "0ae8", 
+    "amount": 232, 
+    "_date": "a6d934110f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-11-17T19:43:42 head[2], body[0] op[0x16]", 
     "timestamp": "2015-11-17T19:43:42", 
