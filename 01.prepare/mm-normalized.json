@@ -1,24 +1,32 @@
 [
   {
     "amount": -0.7000000000000001, 
-    "start_at": -10, 
+    "start_at": -5, 
     "description": "TempBasal: 0.0U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": 20
+    "end_at": 25
   }, 
   {
-    "start_at": -463, 
+    "amount": -0.7000000000000001, 
+    "start_at": -15, 
+    "description": "TempBasal: 0.0U/hour over 10min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -5
+  }, 
+  {
+    "start_at": -468, 
     "description": "Normal bolus: 4.5U", 
-    "end_at": -463, 
+    "end_at": -468, 
     "amount": 4.5, 
     "type": "Bolus", 
     "unit": "U"
   }, 
   {
-    "start_at": -463, 
+    "start_at": -468, 
     "description": "BolusWizard: 68g", 
-    "end_at": -463, 
+    "end_at": -468, 
     "amount": 68, 
     "type": "Meal", 
     "unit": "g"
