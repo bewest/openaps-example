@@ -1,5 +1,72 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-12-05T20:03:31 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-05T20:03:31-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0b109514289f146ca914", 
+        "data": [
+          {
+            "amount": 0.4, 
+            "age": 405
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 415
+          }, 
+          {
+            "amount": 2.7, 
+            "age": 425
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.7, 
+    "duration": 0, 
+    "amount": 2.7, 
+    "_head": "011b1b00", 
+    "type": "normal", 
+    "_date": "df0354050f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 131, 
+    "_byte[5]": 1, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-05T20:03:31 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-05T20:03:31-08:00", 
+    "_body": "27500f2d6a011a000000001b7d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 2.6, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.1, 
+    "carb_input": 39, 
+    "_head": "5b83", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 2.7, 
+    "_date": "df0314050f", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-05T20:03:12 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-05T20:03:12-08:00", 
+    "_body": "", 
+    "_head": "0a83", 
+    "amount": 131, 
+    "_date": "cc0334050f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-12-05T18:27:31 head[2], body[0] op[0x16]", 
     "timestamp": "2015-12-05T18:27:31-08:00", 
@@ -353,13 +420,5 @@
     "_body": "", 
     "_head": "1f00", 
     "_date": "f23a0c050f"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2015-12-05T10:47:06 head[2], body[0] op[0x1e]", 
-    "timestamp": "2015-12-05T10:47:06-08:00", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "c62f0a050f"
   }
 ]
