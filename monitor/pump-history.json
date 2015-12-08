@@ -1,5 +1,64 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-12-07T20:33:50 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-07T20:33:50", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.1, 
+            "age": 355
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05046314", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.6, 
+    "_head": "01101000", 
+    "amount": 1.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "f22154070f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 180, 
+    "bg_target_high": 125, 
+    "correction_estimate": 1.2, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-07T20:33:49 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-07T20:33:49", 
+    "_body": "06500f2d6a0c0400000000107d", 
+    "carb_input": 6, 
+    "_head": "5bb4", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 12, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "f12114070f", 
+    "bolus_estimate": 1.6, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.4, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-07T20:33:31 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-07T20:33:31", 
+    "_body": "", 
+    "_head": "0ab4", 
+    "amount": 180, 
+    "_date": "df2134070f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-12-07T20:07:33 head[2], body[0] op[0x16]", 
@@ -350,13 +409,5 @@
     "_body": "", 
     "_head": "1f00", 
     "_date": "da2e0e070f"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2015-12-07T12:14:32 head[2], body[0] op[0x1e]", 
-    "timestamp": "2015-12-07T12:14:32", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "e00e0c070f"
   }
 ]
