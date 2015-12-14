@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-12-14T04:33:19 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-12-14T04:33:19", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "d321044e0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-12-14T04:33:19 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-12-14T04:33:19", 
+    "_body": "00", 
+    "_head": "332d", 
+    "rate": 1.125, 
+    "_date": "d321044e0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "duration (min)": 0, 
     "_description": "TempBasalDuration 2015-12-14T03:18:18 head[2], body[0] op[0x16]", 
     "timestamp": "2015-12-14T03:18:18", 
@@ -226,13 +245,5 @@
     "_body": "", 
     "_head": "1f00", 
     "_date": "fb09160d0f"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2015-12-13T20:30:32 head[2], body[0] op[0x1e]", 
-    "timestamp": "2015-12-13T20:30:32", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "e01e140d0f"
   }
 ]
