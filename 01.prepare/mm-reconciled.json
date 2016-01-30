@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-01-30T04:53:19 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-30T04:53:19", 
+    "_body": "", 
+    "_head": "1600", 
+    "duration (min)": 0, 
+    "_date": "1375045e10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-30T04:53:19 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-30T04:53:19", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "1375045e10"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2016-01-30T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2016-01-30T00:00:00", 
@@ -15,49 +34,5 @@
     "_head": "07000003ac", 
     "valid_date": "2016-01-29", 
     "_date": "1d90"
-  }, 
-  {
-    "programmed": 0.5, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-01-29T18:09:04 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-01-29T18:09:04", 
-    "_body": "", 
-    "_head": "01050500", 
-    "amount": 0.5, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "0449521d10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 133, 
-    "bg_target_high": 125, 
-    "correction_estimate": 0.1, 
-    "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2016-01-29T18:09:04 head[2], body[13] op[0x5b]", 
-    "timestamp": "2016-01-29T18:09:04", 
-    "_body": "00500f2d6a010000000000017d", 
-    "unknown_byte[8]": 0, 
-    "carb_ratio": 15, 
-    "food_estimate": 0.0, 
-    "unabsorbed_insulin_total": 0.0, 
-    "_byte[5]": 1, 
-    "carb_input": 0, 
-    "_head": "5b85", 
-    "unabsorbed_insulin_count": "??", 
-    "bolus_estimate": 0.1, 
-    "_byte[7]": 0, 
-    "sensitivity": 45, 
-    "_date": "0449121d10", 
-    "bg_target_low": 106
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-01-29T18:08:55 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-01-29T18:08:55", 
-    "_body": "", 
-    "_head": "0a85", 
-    "amount": 133, 
-    "_date": "3748321d10"
   }
 ]
