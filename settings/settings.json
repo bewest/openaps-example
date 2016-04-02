@@ -1,26 +1,27 @@
-[
-  {
-    "i": 0, 
-    "start": "00:00:00", 
-    "rate": 0.7000000000000001, 
-    "minutes": 0
+{
+  "low_reservoir_warn_point": 20, 
+  "keypad_lock_status": 0, 
+  "rf_enable": false, 
+  "temp_basal": {
+    "type": "Units/hour", 
+    "percent": 100
   }, 
-  {
-    "i": 1, 
-    "start": "06:30:00", 
-    "rate": 1.05, 
-    "minutes": 390
+  "low_reservoir_warn_type": 0, 
+  "insulinConcentration": 100, 
+  "audio_bolus_enable": true, 
+  "variable_bolus_enable": true, 
+  "alarm": {
+    "volume": 1, 
+    "mode": 2
   }, 
-  {
-    "i": 2, 
-    "start": "09:30:00", 
-    "rate": 1.1, 
-    "minutes": 570
-  }, 
-  {
-    "i": 3, 
-    "start": "13:30:00", 
-    "rate": 0.9, 
-    "minutes": 810
-  }
-]
+  "maxBasal": 4.0, 
+  "insulin_action_curve": 4, 
+  "block_enable": false, 
+  "selected_pattern": 0, 
+  "auto_off_duration_hrs": 0, 
+  "audio_bolus_size": 0.1, 
+  "timeformat": 0, 
+  "paradigm_enabled": 1, 
+  "maxBolus": 10.0, 
+  "patterns_enabled": true
+}
