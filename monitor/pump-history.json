@@ -1,6 +1,77 @@
 [
   {
     "_type": "Bolus", 
+    "_description": "Bolus 2016-05-03T13:20:07 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-05-03T13:20:07-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0e08880422e2044aec04243c14", 
+        "data": [
+          {
+            "amount": 0.2, 
+            "age": 136
+          }, 
+          {
+            "amount": 0.85, 
+            "age": 226
+          }, 
+          {
+            "amount": 1.85, 
+            "age": 236
+          }, 
+          {
+            "amount": 0.9, 
+            "age": 316
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 3.7, 
+    "duration": 0, 
+    "amount": 3.7, 
+    "_head": "01252500", 
+    "type": "normal", 
+    "_date": "47544d0310"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 306, 
+    "_byte[5]": 40, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-05-03T13:20:06 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-05-03T13:20:06-07:00", 
+    "_body": "00510f2d6a280000000300257d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.3, 
+    "correction_estimate": 0.8, 
+    "carb_input": 0, 
+    "_head": "5b32", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 3.7, 
+    "_date": "46540d0310", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-03T13:20:05 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-03T13:20:05-07:00", 
+    "_body": "", 
+    "_head": "0a32", 
+    "amount": 306, 
+    "_date": "45542d0390"
+  }, 
+  {
+    "_type": "Bolus", 
     "_description": "Bolus 2016-05-03T11:09:55 head[4], body[0] op[0x01]", 
     "timestamp": "2016-05-03T11:09:55-07:00", 
     "_body": "", 
