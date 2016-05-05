@@ -1,22 +1,24 @@
 {
-  "enable-auto-sens": true, 
-  "e": true, 
+  "a": true, 
+  "auto-sens": true, 
   "help": false, 
   "missing": [
     "duration", 
     "rate"
   ], 
   "autoSensRatio": 1, 
-  "timestamp": "2016-05-04T18:30:37.515786", 
+  "timestamp": "2016-05-04T18:35:37.245850", 
   "r": 1, 
+  "autoSens": true, 
   "$0": "/usr/local/bin/oref0-determine-basal", 
   "error": "missing required input fields", 
   "input": {
-    "enable-auto-sens": true, 
-    "e": true, 
+    "a": true, 
+    "auto-sens": true, 
     "help": false, 
     "autoSensRatio": 1, 
     "r": 1, 
+    "autoSens": true, 
     "_": [
       "oref0-monitor/iob.json", 
       "monitor/temp-basal-status.json", 
@@ -24,8 +26,7 @@
       "oref0-monitor/profile.json"
     ], 
     "auto-sens-ratio": 1, 
-    "$0": "/usr/local/bin/oref0-determine-basal", 
-    "enableAutoSens": true
+    "$0": "/usr/local/bin/oref0-determine-basal"
   }, 
   "auto-sens-ratio": 1, 
   "_": [
@@ -33,6 +34,5 @@
     "monitor/temp-basal-status.json", 
     "monitor/glucose.json", 
     "oref0-monitor/profile.json"
-  ], 
-  "enableAutoSens": true
+  ]
 }
