@@ -1,5 +1,35 @@
 [
   {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-05-05T11:37:57 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-05-05T11:37:57", 
+    "_body": "", 
+    "fixed": 0.4, 
+    "_head": "0300040004", 
+    "amount": 0.4, 
+    "_date": "79650b0510"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-05-05T11:37:23 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-05-05T11:37:23", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000028", 
+    "amount": 4.0, 
+    "_date": "57652b0510"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-05-05T11:36:49 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-05-05T11:36:49", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "71640b0510"
+  }, 
+  {
     "_type": "ClearAlarm", 
     "_description": "ClearAlarm 2016-05-05T11:21:36 head[2], body[0] op[0x0c]", 
     "timestamp": "2016-05-05T11:21:36", 
@@ -850,43 +880,5 @@
     "_head": "336f", 
     "rate": 2.775, 
     "_date": "7b44044510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-05T03:34:59 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-05T03:34:59", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "7b62034510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-05T03:34:59 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-05T03:34:59", 
-    "_body": "00", 
-    "_head": "336f", 
-    "rate": 2.775, 
-    "_date": "7b62034510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-05T03:32:38 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-05T03:32:38", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "6660034510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-05T03:32:38 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-05T03:32:38", 
-    "_body": "00", 
-    "_head": "3364", 
-    "rate": 2.5, 
-    "_date": "6660034510"
   }
 ]
