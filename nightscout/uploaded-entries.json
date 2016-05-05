@@ -1,47 +1,12 @@
-[
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-05T03:18:09-07:00", 
-    "system_time": "2016-05-05T09:15:19-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-05T03:18:09-07:00", 
-    "date": 1462443489000, 
-    "unfiltered": 181056, 
-    "filtered": 182976, 
-    "device": "openaps://cgm", 
-    "rssi": 193, 
-    "sgv": 205, 
-    "type": "sgv", 
-    "glucose": 205
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-05T03:18:09-07:00", 
-    "system_time": "2016-05-05T09:15:18-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-05T03:18:09-07:00", 
-    "date": 1462443489000, 
-    "unfiltered": 181984, 
-    "filtered": 182688, 
-    "device": "openaps://cgm", 
-    "rssi": 204, 
-    "sgv": 204, 
-    "type": "sgv", 
-    "glucose": 204
-  }, 
-  {
-    "trend_arrow": "NOT_COMPUTABLE", 
-    "display_time": "2016-05-05T03:13:09-07:00", 
-    "system_time": "2016-05-05T09:10:18-07:00", 
-    "direction": "NOT COMPUTABLE", 
-    "dateString": "2016-05-05T03:13:09-07:00", 
-    "date": 1462443189000, 
-    "unfiltered": 183776, 
-    "filtered": 181760, 
-    "device": "openaps://cgm", 
-    "rssi": 169, 
-    "sgv": 5, 
-    "type": "sgv", 
-    "glucose": 5
+{
+  "status": 500, 
+  "message": "Mongo Error", 
+  "description": {
+    "index": 0, 
+    "code": 16920, 
+    "name": "MongoError", 
+    "driver": true, 
+    "message": "trying to match on unknown field: date", 
+    "errmsg": "trying to match on unknown field: date"
   }
-]
+}
