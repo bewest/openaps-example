@@ -1,38 +1,13 @@
 {
-  "a": true, 
-  "auto-sens": true, 
-  "help": false, 
-  "missing": [
-    "duration", 
-    "rate"
-  ], 
-  "autoSensRatio": 1, 
-  "timestamp": "2016-05-04T18:50:36.388265", 
-  "r": 1, 
-  "autoSens": true, 
-  "$0": "/usr/local/bin/oref0-determine-basal", 
-  "error": "missing required input fields", 
-  "input": {
-    "a": true, 
-    "auto-sens": true, 
-    "help": false, 
-    "autoSensRatio": 1, 
-    "r": 1, 
-    "autoSens": true, 
-    "_": [
-      "oref0-monitor/iob.json", 
-      "monitor/temp-basal-status.json", 
-      "monitor/glucose.json", 
-      "oref0-monitor/profile.json"
-    ], 
-    "auto-sens-ratio": 1, 
-    "$0": "/usr/local/bin/oref0-determine-basal"
-  }, 
-  "auto-sens-ratio": 1, 
-  "_": [
-    "oref0-monitor/iob.json", 
-    "monitor/temp-basal-status.json", 
-    "monitor/glucose.json", 
-    "oref0-monitor/profile.json"
-  ]
+  "bg": 200, 
+  "temp": "absolute", 
+  "snoozeBG": 202, 
+  "recieved": true, 
+  "rate": 2.5, 
+  "reason": "Eventual BG 202>=125, no temp, setting 2.52U/hr", 
+  "eventualBG": 202, 
+  "timestamp": "2016-05-05T03:33:24.965999", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 116 Deviation: 3 BGI: -3.87", 
+  "tick": -3
 }
