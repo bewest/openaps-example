@@ -1,1 +1,13 @@
-{"temp":"absolute","bg":93,"tick":-1,"eventualBG":90,"snoozeBG":90,"mealAssist":"Off: Carbs: undefined Boluses: undefined Target: 116 Deviation: -6 BGI: 1.08","reason":"Eventual BG 90<106, setting -1.367U/hr","duration":30,"rate":0}
+{ _: 
+   [ 'oref0-monitor/iob.json',
+     'monitor/temp-basal-status.json',
+     'monitor/glucose.json',
+     'oref0-monitor/profile.json' ],
+  help: false,
+  'auto-sens': true,
+  a: true,
+  autoSens: true,
+  'aggro-temps': true,
+  t: true,
+  aggroTemps: true,
+  '$0': '/usr/local/bin/oref0-determine-basal' }
