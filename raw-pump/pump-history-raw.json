@@ -1,5 +1,95 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-05-15T01:49:04 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-05-15T01:49:04", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[35], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 4.8, 
+            "age": 45
+          }, 
+          {
+            "amount": 2.95, 
+            "age": 55
+          }, 
+          {
+            "amount": 1.35, 
+            "age": 65
+          }, 
+          {
+            "amount": 1.6, 
+            "age": 95
+          }, 
+          {
+            "amount": 3.4, 
+            "age": 115
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 145
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 195
+          }, 
+          {
+            "amount": 4.2, 
+            "age": 215
+          }, 
+          {
+            "amount": 2.65, 
+            "age": 245
+          }, 
+          {
+            "amount": 0.65, 
+            "age": 255
+          }, 
+          {
+            "amount": 2.5, 
+            "age": 295
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c23c02d04763704364104405f0488730414910414c304a8d7046af5041aff04642714", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.4, 
+    "_head": "01040400", 
+    "amount": 0.4, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "4471410f10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-05-15T01:49:04 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-05-15T01:49:04", 
+    "_body": "00500d2d6a000000000000007d", 
+    "carb_input": 0, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "4471010f10", 
+    "bolus_estimate": 0.0, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 13, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-05-15T01:39:52 head[2], body[0] op[0x16]", 
