@@ -1,17 +1,21 @@
 {
-  "bg": 137, 
+  "bg": 121, 
   "temp": "absolute", 
-  "snoozeBG": -180, 
-  "recieved": true, 
+  "snoozeBG": -137, 
+  "timestamp": "2016-05-22T03:50:45.191934", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
   "predBGs": {
     "IOB": [
-      137, 
-      126, 
-      113, 
-      99, 
-      85, 
-      69, 
-      52, 
+      121, 
+      111, 
+      100, 
+      88, 
+      74, 
+      60, 
+      46, 
       39, 
       39, 
       39, 
@@ -20,10 +24,33 @@
       39
     ]
   }, 
-  "rate": 0.0, 
-  "reason": "COB: undefined, Dev: 23, BGI: -14.87, ISF: 45, Target: 115.5; Eventual BG -181<106, setting -25.567U/hr", 
-  "eventualBG": -181, 
-  "timestamp": "2016-05-22T03:40:44.352175", 
-  "duration": 30, 
-  "tick": -11
+  "reason": "COB: undefined, Dev: 46, BGI: -16.65, ISF: 45, Target: 115.5; Eventual BG -137<106, setting -21.744U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
+  "eventualBG": -137, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "COB: undefined, Dev: 46, BGI: -16.65, ISF: 45, Target: 115.5; Eventual BG -137<106, setting -21.744U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
+    "bg": 121, 
+    "eventualBG": -137, 
+    "temp": "absolute", 
+    "snoozeBG": -137, 
+    "tick": -6, 
+    "predBGs": {
+      "IOB": [
+        121, 
+        111, 
+        100, 
+        88, 
+        74, 
+        60, 
+        46, 
+        39, 
+        39, 
+        39, 
+        39, 
+        39, 
+        39
+      ]
+    }
+  }, 
+  "tick": -6
 }
