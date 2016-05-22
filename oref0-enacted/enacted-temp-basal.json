@@ -1,56 +1,29 @@
 {
-  "bg": 94, 
+  "bg": 96, 
   "temp": "absolute", 
-  "snoozeBG": 30, 
-  "timestamp": "2016-05-22T04:25:51.393268", 
-  "missing": [
-    "duration", 
-    "rate"
-  ], 
+  "snoozeBG": 58, 
+  "recieved": true, 
   "predBGs": {
     "IOB": [
-      94, 
+      96, 
+      95, 
+      93, 
       91, 
-      88, 
+      87, 
       83, 
-      78, 
-      73, 
-      66, 
-      58, 
-      50, 
-      41, 
-      39, 
+      77, 
+      71, 
+      63, 
+      55, 
+      46, 
       39, 
       39
     ]
   }, 
-  "reason": "COB: undefined, Dev: 99, BGI: -17.75, ISF: 45, Target: 115.5; Eventual BG 30<106, Snooze BG 30, temp 0 ~< req -0.02U/hr", 
-  "eventualBG": 30, 
-  "error": "missing required input fields", 
-  "input": {
-    "reason": "COB: undefined, Dev: 99, BGI: -17.75, ISF: 45, Target: 115.5; Eventual BG 30<106, Snooze BG 30, temp 0 ~< req -0.02U/hr", 
-    "bg": 94, 
-    "eventualBG": 30, 
-    "temp": "absolute", 
-    "snoozeBG": 30, 
-    "tick": "+1", 
-    "predBGs": {
-      "IOB": [
-        94, 
-        91, 
-        88, 
-        83, 
-        78, 
-        73, 
-        66, 
-        58, 
-        50, 
-        41, 
-        39, 
-        39, 
-        39
-      ]
-    }
-  }, 
-  "tick": "+1"
+  "rate": 0.675, 
+  "reason": "COB: undefined, Dev: 107, BGI: -17.17, ISF: 45, Target: 115.5; Eventual BG 58<106, but Delta +2 > Exp. Delta -14.8; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
+  "eventualBG": 58, 
+  "timestamp": "2016-05-22T04:30:49.293807", 
+  "duration": 30, 
+  "tick": "+2"
 }
