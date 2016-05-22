@@ -1,31 +1,60 @@
 {
-  "bg": 114, 
+  "bg": 112, 
   "temp": "absolute", 
-  "snoozeBG": 121, 
-  "recieved": true, 
+  "snoozeBG": 120, 
+  "timestamp": "2016-05-22T05:10:48.817521", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
   "predBGs": {
     "IOB": [
-      114, 
       112, 
       109, 
       106, 
       102, 
       98, 
       93, 
-      87, 
-      81, 
-      74, 
-      67, 
-      59, 
-      50, 
-      42, 
+      88, 
+      82, 
+      76, 
+      70, 
+      63, 
+      56, 
+      48, 
+      41, 
       39
     ]
   }, 
-  "rate": 0.675, 
-  "reason": "COB: undefined, Dev: 74, BGI: -13.34, ISF: 45, Target: 115.5; 121-121 in range: no temp required; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
-  "eventualBG": 121, 
-  "timestamp": "2016-05-22T05:05:49.979893", 
-  "duration": 30, 
-  "tick": -1
+  "reason": "COB: undefined, Dev: 65, BGI: -12.87, ISF: 45, Target: 115.5; 120-120 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
+  "eventualBG": 120, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "COB: undefined, Dev: 65, BGI: -12.87, ISF: 45, Target: 115.5; 120-120 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
+    "bg": 112, 
+    "eventualBG": 120, 
+    "temp": "absolute", 
+    "snoozeBG": 120, 
+    "tick": -2, 
+    "predBGs": {
+      "IOB": [
+        112, 
+        109, 
+        106, 
+        102, 
+        98, 
+        93, 
+        88, 
+        82, 
+        76, 
+        70, 
+        63, 
+        56, 
+        48, 
+        41, 
+        39
+      ]
+    }
+  }, 
+  "tick": -2
 }
