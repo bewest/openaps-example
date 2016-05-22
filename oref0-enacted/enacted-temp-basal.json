@@ -1,58 +1,32 @@
 {
-  "bg": 104, 
+  "bg": 107, 
   "temp": "absolute", 
-  "snoozeBG": 100, 
-  "timestamp": "2016-05-22T04:45:49.669495", 
-  "missing": [
-    "duration", 
-    "rate"
-  ], 
+  "snoozeBG": 125, 
+  "recieved": true, 
   "predBGs": {
     "IOB": [
-      104, 
-      104, 
+      107, 
+      108, 
+      109, 
+      109, 
+      107, 
+      105, 
       102, 
-      101, 
-      98, 
-      94, 
-      89, 
-      84, 
+      97, 
+      92, 
+      85, 
       78, 
-      70, 
-      62, 
-      53, 
-      43, 
+      69, 
+      60, 
+      51, 
+      42, 
       39
     ]
   }, 
-  "reason": "COB: undefined, Dev: 99, BGI: -15.46, ISF: 45, Target: 115.5; Eventual BG 100<106, but Avg. Delta 1.00 > Exp. Delta -14.8, temp 0.675 ~ req 0.7U/hr", 
-  "eventualBG": 100, 
-  "error": "missing required input fields", 
-  "input": {
-    "reason": "COB: undefined, Dev: 99, BGI: -15.46, ISF: 45, Target: 115.5; Eventual BG 100<106, but Avg. Delta 1.00 > Exp. Delta -14.8, temp 0.675 ~ req 0.7U/hr", 
-    "bg": 104, 
-    "eventualBG": 100, 
-    "temp": "absolute", 
-    "snoozeBG": 100, 
-    "tick": "+1", 
-    "predBGs": {
-      "IOB": [
-        104, 
-        104, 
-        102, 
-        101, 
-        98, 
-        94, 
-        89, 
-        84, 
-        78, 
-        70, 
-        62, 
-        53, 
-        43, 
-        39
-      ]
-    }
-  }, 
-  "tick": "+1"
+  "rate": 1.1, 
+  "reason": "COB: undefined, Dev: 108, BGI: -14.92, ISF: 45, Target: 115.5; Eventual BG 125>=125, temp 0.675<1.122U/hr", 
+  "eventualBG": 125, 
+  "timestamp": "2016-05-22T04:50:48.149034", 
+  "duration": 30, 
+  "tick": "+3"
 }
