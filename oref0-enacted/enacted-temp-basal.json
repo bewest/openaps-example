@@ -1,29 +1,12 @@
 {
-  "bg": 162, 
-  "temp": "absolute", 
-  "snoozeBG": 49, 
-  "recieved": true, 
-  "predBGs": {
-    "IOB": [
-      162, 
-      142, 
-      123, 
-      106, 
-      90, 
-      76, 
-      63, 
-      52, 
-      43, 
-      39, 
-      39, 
-      39, 
-      39
-    ]
+  "input": {
+    "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 1.1U/hr"
   }, 
-  "rate": 0.0, 
-  "reason": "COB: undefined, Dev: -42, BGI: -2.99, ISF: 45, Target: 115.5; Eventual BG 49<106, setting -4.811U/hr", 
-  "eventualBG": 49, 
-  "timestamp": "2016-05-23T10:00:50.222955", 
-  "duration": 30, 
-  "tick": -22
+  "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 1.1U/hr", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
+  "timestamp": "2016-05-23T10:05:49.662149", 
+  "error": "missing required input fields"
 }
