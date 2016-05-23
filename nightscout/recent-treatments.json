@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "carbs": "65", 
+    "bg": "111", 
+    "ratio": "15", 
+    "bolus": {
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-05-22T21:48:20 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-05-22T21:48:20-07:00", 
+      "_body": "", 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c11085e04089a0420e0044c081480a814", 
+          "data": [
+            {
+              "amount": 0.2, 
+              "age": 94
+            }, 
+            {
+              "amount": 0.2, 
+              "age": 154
+            }, 
+            {
+              "amount": 0.8, 
+              "age": 224
+            }, 
+            {
+              "amount": 1.9, 
+              "age": 264
+            }, 
+            {
+              "amount": 3.2, 
+              "age": 424
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "programmed": 4.3, 
+      "_head": "012b2b00", 
+      "amount": 4.3, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "5470551610"
+    }, 
+    "timestamp": "2016-05-22T21:48:20-07:00", 
+    "created_at": "2016-05-22T21:48:20-07:00", 
+    "glucoseType": "BolusWizard", 
+    "enteredBy": "openaps://medtronic/522", 
+    "wizard": {
+      "_type": "BolusWizard", 
+      "bg": 111, 
+      "bg_target_high": 125, 
+      "correction_estimate": 0, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2016-05-22T21:48:20 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-05-22T21:48:20-07:00", 
+      "_body": "41500f2d6a002b000003002b7d", 
+      "unknown_byte[8]": 0, 
+      "bolus_estimate": 4.3, 
+      "carb_ratio": 15, 
+      "food_estimate": 4.3, 
+      "unabsorbed_insulin_total": 0.3, 
+      "_byte[5]": 0, 
+      "carb_input": 65, 
+      "_head": "5b6f", 
+      "unabsorbed_insulin_count": "??", 
+      "_byte[7]": 0, 
+      "sensitivity": 45, 
+      "_date": "5470151610", 
+      "bg_target_low": 106
+    }, 
+    "insulin": "4.3", 
+    "eventType": "Meal Bolus", 
+    "duration": "0", 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 4.3\nDelivered bolus 4.3\nPercent delivered:  100%\nFood estimate 4.3\nCorrection estimate 0\nBolus estimate 4.3\nTarget low 106\nTarget high 125\nHypothetical glucose delta -193.5\nGlucose was: 111", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus", 
+    "glucose": "111"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-22T21:47:55 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-22T21:47:55-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a6f", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 111, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-05-22T21:47:55-07:00", 
+    "_date": "776f351610", 
+    "glucose": 111
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-22T21:46:40 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-22T21:46:40-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a71", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 113, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-05-22T21:46:40-07:00", 
+    "_date": "686e351610", 
+    "glucose": 113
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-05-22T21:26:17 head[5], body[0] op[0x03]", 
+    "notes": "Prime 522 ", 
+    "timestamp": "2016-05-22T21:26:17-07:00", 
+    "_body": "", 
+    "_head": "0300040004", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 0.4, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "eventType": "Note", 
+    "fixed": 0.4, 
+    "type": "fixed", 
+    "created_at": "2016-05-22T21:26:17-07:00", 
+    "_date": "515a151610"
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-05-22T21:25:55 head[5], body[0] op[0x03]", 
+    "notes": "Prime 522 ", 
+    "timestamp": "2016-05-22T21:25:55-07:00", 
+    "_body": "", 
+    "_head": "0300000033", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 5.1, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "eventType": "Note", 
+    "fixed": 0, 
+    "type": "manual", 
+    "created_at": "2016-05-22T21:25:55-07:00", 
+    "_date": "7759351610"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-05-22T21:25:00 head[2], body[0] op[0x21]", 
+    "notes": "Rewind 522 ", 
+    "timestamp": "2016-05-22T21:25:00-07:00", 
+    "_body": "", 
+    "_head": "2100", 
+    "enteredBy": "openaps://medtronic/522", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
+    "eventType": "Note", 
+    "created_at": "2016-05-22T21:25:00-07:00", 
+    "_date": "4059151610"
+  }
+]
