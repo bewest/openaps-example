@@ -1,77 +1,12 @@
-[
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-29T17:06:40-07:00", 
-    "system_time": "2016-05-29T23:03:50-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-29T17:06:40-07:00", 
-    "date": 1464566800000, 
-    "unfiltered": 99728, 
-    "filtered": 98544, 
-    "device": "openaps://cgm", 
-    "rssi": 203, 
-    "sgv": 55, 
-    "type": "sgv", 
-    "glucose": 55
-  }, 
-  {
-    "trend_arrow": "NOT_COMPUTABLE", 
-    "display_time": "2016-05-29T17:01:39-07:00", 
-    "system_time": "2016-05-29T22:58:49-07:00", 
-    "direction": "NOT COMPUTABLE", 
-    "dateString": "2016-05-29T17:01:39-07:00", 
-    "date": 1464566499000, 
-    "unfiltered": 99360, 
-    "filtered": 99600, 
-    "device": "openaps://cgm", 
-    "rssi": 201, 
-    "sgv": 59, 
-    "type": "sgv", 
-    "glucose": 59
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-29T18:16:39-07:00", 
-    "system_time": "2016-05-30T00:13:49-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-29T18:16:39-07:00", 
-    "date": 1464570999000, 
-    "unfiltered": 80192, 
-    "filtered": 73136, 
-    "device": "openaps://cgm", 
-    "rssi": 204, 
-    "sgv": 63, 
-    "type": "sgv", 
-    "glucose": 63
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-29T18:16:39-07:00", 
-    "system_time": "2016-05-30T00:13:49-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-29T18:16:39-07:00", 
-    "date": 1464570999000, 
-    "unfiltered": 72288, 
-    "filtered": 72192, 
-    "device": "openaps://cgm", 
-    "rssi": 197, 
-    "sgv": 67, 
-    "type": "sgv", 
-    "glucose": 67
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-05-29T18:11:39-07:00", 
-    "system_time": "2016-05-30T00:08:49-07:00", 
-    "direction": "Flat", 
-    "dateString": "2016-05-29T18:11:39-07:00", 
-    "date": 1464570699000, 
-    "unfiltered": 72320, 
-    "filtered": 71744, 
-    "device": "openaps://cgm", 
-    "rssi": 197, 
-    "sgv": 39, 
-    "type": "sgv", 
-    "glucose": 39
+{
+  "status": 500, 
+  "message": "Mongo Error", 
+  "description": {
+    "index": 0, 
+    "code": 16920, 
+    "name": "MongoError", 
+    "driver": true, 
+    "message": "trying to match on unknown field: date", 
+    "errmsg": "trying to match on unknown field: date"
   }
-]
+}
