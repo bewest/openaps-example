@@ -1,5 +1,76 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-02T02:24:01 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-06-02T02:24:01-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0e08f00408fa0518ae1484b814", 
+        "data": [
+          {
+            "amount": 0.2, 
+            "age": 240
+          }, 
+          {
+            "amount": 0.2, 
+            "age": 250
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 430
+          }, 
+          {
+            "amount": 3.3, 
+            "age": 440
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.0, 
+    "duration": 0, 
+    "amount": 2.0, 
+    "_head": "01141400", 
+    "type": "normal", 
+    "_date": "4198420210"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 231, 
+    "_byte[5]": 23, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-06-02T02:24:01 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-06-02T02:24:01-07:00", 
+    "_body": "00500d2d6a170000000000177d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 13, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.7, 
+    "carb_input": 0, 
+    "_head": "5be7", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 2.3, 
+    "_date": "4198020210", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-02T02:23:56 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-02T02:23:56-07:00", 
+    "_body": "", 
+    "_head": "0ae7", 
+    "amount": 231, 
+    "_date": "7897220210"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-02T01:59:37 head[2], body[0] op[0x16]", 
     "timestamp": "2016-06-02T01:59:37-07:00", 
