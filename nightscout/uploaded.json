@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "created_at": "2016-06-05T20:08:32-07:00", 
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-05T20:08:32 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-05T20:08:32-07:00", 
+    "notes": "Battery 522 ", 
+    "_head": "1a01", 
+    "enteredBy": "openaps://medtronic/522", 
+    "_date": "6088140510", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
+  }, 
+  {
+    "created_at": "2016-06-05T20:08:11-07:00", 
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-05T20:08:11 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-05T20:08:11-07:00", 
+    "notes": "Battery 522 ", 
+    "_head": "1a00", 
+    "enteredBy": "openaps://medtronic/522", 
+    "_date": "4b88140510", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
+  }, 
+  {
+    "created_at": "2016-06-05T20:01:00-07:00", 
+    "_type": "LowBattery", 
+    "_description": "LowBattery 2016-06-05T20:01:00 head[2], body[0] op[0x19]", 
+    "timestamp": "2016-06-05T20:01:00-07:00", 
+    "notes": "LowBattery 522 ", 
+    "_head": "1900", 
+    "enteredBy": "openaps://medtronic/522", 
+    "_date": "4081140510", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/LowBattery"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-06-05T19:59:35 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-06-05T19:59:35-07:00", 
+      "_body": "00", 
+      "_head": "334a", 
+      "rate": 1.85, 
+      "_date": "63bb134510"
+    }, 
+    "timestamp": "2016-06-05T19:59:35-07:00", 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-06-05T19:59:35 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-06-05T19:59:35-07:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "63bb134510"
+    }, 
+    "created_at": "2016-06-05T19:59:35-07:00", 
+    "enteredBy": "openaps://medtronic/522", 
+    "rate": 1.85, 
+    "eventType": "Temp Basal", 
+    "duration": 30, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": 1.85
+  }
+]
