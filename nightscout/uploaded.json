@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "carbs": 56, 
+    "bg": "104", 
+    "ratio": "15", 
+    "bolus": {
+      "programmed": 3.6, 
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-06-07T21:37:51 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-06-07T21:37:51-07:00", 
+      "_body": "", 
+      "_head": "01242400", 
+      "amount": 3.6, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "73a5550710"
+    }, 
+    "timestamp": "2016-06-07T21:37:51-07:00", 
+    "created_at": "2016-06-07T21:37:51-07:00", 
+    "glucoseType": "BolusWizard", 
+    "enteredBy": "openaps://medtronic/522", 
+    "wizard": {
+      "unknown_byte[8]": 0, 
+      "_type": "BolusWizard", 
+      "bg": 104, 
+      "_byte[5]": 255, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2016-06-07T21:37:51 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-06-07T21:37:51-07:00", 
+      "_body": "38500f2d6aff25f0000000247d", 
+      "bg_target_high": 125, 
+      "sensitivity": 45, 
+      "carb_ratio": 15, 
+      "food_estimate": 3.7, 
+      "unabsorbed_insulin_total": 0, 
+      "correction_estimate": -0.1, 
+      "carb_input": 56, 
+      "_head": "5b68", 
+      "unabsorbed_insulin_count": "??", 
+      "_byte[7]": 240, 
+      "bolus_estimate": 3.6, 
+      "_date": "73a5150710", 
+      "bg_target_low": 106
+    }, 
+    "insulin": 3.6, 
+    "eventType": "Meal Bolus", 
+    "duration": 0, 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 3.6\nDelivered bolus 3.6\nPercent delivered:  100%\nFood estimate 3.7\nCorrection estimate -0.1\nBolus estimate 3.6\nTarget low 106\nTarget high 125\nHypothetical glucose delta -162\nGlucose was: 104", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus", 
+    "glucose": 104
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-07T21:37:08 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-07T21:37:08-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a68", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 104, 
+    "_date": "48a5350710", 
+    "eventType": "BG Check", 
+    "created_at": "2016-06-07T21:37:08-07:00", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "glucose": 104
+  }
+]
