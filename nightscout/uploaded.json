@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "carbs": 45, 
+    "ratio": "15", 
+    "bolus": {
+      "programmed": 2.7, 
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-06-09T12:35:19 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-06-09T12:35:19-07:00", 
+      "_body": "", 
+      "_head": "011b1b00", 
+      "amount": 2.7, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "53a34c0910"
+    }, 
+    "timestamp": "2016-06-09T12:35:19-07:00", 
+    "created_at": "2016-06-09T12:35:19-07:00", 
+    "wizard": {
+      "unknown_byte[8]": 0, 
+      "_type": "BolusWizard", 
+      "bg": 0, 
+      "_byte[5]": 0, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2016-06-09T12:35:19 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-06-09T12:35:19-07:00", 
+      "_body": "2d500f2d6a001e000000001e7d", 
+      "bg_target_high": 125, 
+      "sensitivity": 45, 
+      "carb_ratio": 15, 
+      "food_estimate": 3, 
+      "unabsorbed_insulin_total": 0, 
+      "correction_estimate": 0, 
+      "carb_input": 45, 
+      "_head": "5b00", 
+      "unabsorbed_insulin_count": "??", 
+      "_byte[7]": 0, 
+      "bolus_estimate": 3, 
+      "_date": "53a30c0910", 
+      "bg_target_low": 106
+    }, 
+    "enteredBy": "openaps://medtronic/522", 
+    "insulin": 2.7, 
+    "eventType": "Meal Bolus", 
+    "duration": 0, 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.7\nDelivered bolus 2.7\nPercent delivered:  100%\nFood estimate 3\nCorrection estimate 0\nBolus estimate 3\nTarget low 106\nTarget high 125\nHypothetical glucose delta -121.50000000000001", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
+  }
+]
