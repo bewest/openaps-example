@@ -7,35 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-06-15T10:40:44.643Z", 
+      "timestamp": "2016-06-15T10:50:44.798Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 38.1, 
-    "clock": "2016-06-15T03:43:50-07:00"
+    "reservoir": 38, 
+    "clock": "2016-06-15T03:48:50-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 206, 
+      "temp": "absolute", 
+      "snoozeBG": 167, 
+      "timestamp": "2016-06-15T10:50:50.754Z", 
+      "rate": 2.8, 
+      "reason": "Eventual BG 166>=125, adj. req. rate:2.9 to maxSafeBasal:2.8, no temp, setting 2.8U/hr", 
+      "eventualBG": 166, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 31 BGI: -8.46", 
+      "tick": "+2"
+    }, 
     "iob": {
       "netbasalinsulin": 3.8, 
-      "timestamp": "2016-06-15T10:40:50.319Z", 
-      "activity": 0.0392, 
-      "basaliob": 1.09, 
+      "timestamp": "2016-06-15T10:50:50.622Z", 
+      "activity": 0.0376, 
+      "basaliob": 0.871, 
       "hightempinsulin": 4.15, 
-      "bolussnooze": 0.06, 
-      "iob": 1.923
+      "bolussnooze": 0.012, 
+      "iob": 1.587
     }, 
     "enacted": {
-      "bg": 274, 
+      "bg": 206, 
       "temp": "absolute", 
-      "snoozeBG": 98, 
+      "snoozeBG": 167, 
       "recieved": true, 
-      "reason": "Eventual BG 42<106, setting -0.856U/hr", 
-      "rate": 0, 
-      "eventualBG": 42, 
-      "timestamp": "2016-06-15T09:50:56.578Z", 
+      "reason": "Eventual BG 166>=125, adj. req. rate:2.9 to maxSafeBasal:2.8, no temp, setting 2.8U/hr", 
+      "rate": 2.775, 
+      "eventualBG": 166, 
+      "timestamp": "2016-06-15T10:50:51.798Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: -52 BGI: -7.06", 
-      "tick": -10
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 31 BGI: -8.46", 
+      "tick": "+2"
     }
   }
 }
