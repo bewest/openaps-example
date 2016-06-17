@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "carbs": "55", 
+    "ratio": "15", 
+    "bolus": {
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-06-16T21:14:58 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-06-16T21:14:58-07:00", 
+      "_body": "", 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c0514aa04", 
+          "data": [
+            {
+              "amount": 0.5, 
+              "age": 170
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "programmed": 3.6, 
+      "_head": "01242400", 
+      "amount": 3.6, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "7a8e551010"
+    }, 
+    "timestamp": "2016-06-16T21:14:58-07:00", 
+    "created_at": "2016-06-16T21:14:58-07:00", 
+    "wizard": {
+      "_type": "BolusWizard", 
+      "bg": 0, 
+      "bg_target_high": 125, 
+      "correction_estimate": 0, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2016-06-16T21:14:58 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-06-16T21:14:58-07:00", 
+      "_body": "37500f2d6a002400000000247d", 
+      "unknown_byte[8]": 0, 
+      "bolus_estimate": 3.6, 
+      "carb_ratio": 15, 
+      "food_estimate": 3.6, 
+      "unabsorbed_insulin_total": 0, 
+      "_byte[5]": 0, 
+      "carb_input": 55, 
+      "_head": "5b00", 
+      "unabsorbed_insulin_count": "??", 
+      "_byte[7]": 0, 
+      "sensitivity": 45, 
+      "_date": "7a8e151010", 
+      "bg_target_low": 106
+    }, 
+    "enteredBy": "openaps://medtronic/522", 
+    "insulin": "3.6", 
+    "eventType": "Meal Bolus", 
+    "duration": "0", 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 3.6\nDelivered bolus 3.6\nPercent delivered:  100%\nFood estimate 3.6\nCorrection estimate 0\nBolus estimate 3.6\nTarget low 106\nTarget high 125\nHypothetical glucose delta -162", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
+  }
+]
