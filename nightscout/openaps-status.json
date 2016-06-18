@@ -7,35 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-06-18T19:55:43.498Z", 
+      "timestamp": "2016-06-18T20:00:45.681Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 31.4, 
-    "clock": "2016-06-18T12:53:46-07:00"
+    "reservoir": 31.3, 
+    "clock": "2016-06-18T12:58:48-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 321, 
+      "temp": "absolute", 
+      "snoozeBG": 324, 
+      "timestamp": "2016-06-18T20:00:51.429Z", 
+      "rate": 3.3, 
+      "reason": "Eventual BG 294>=125, adj. req. rate:9.0 to maxSafeBasal:3.3, no temp, setting 3.3U/hr", 
+      "eventualBG": 294, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 35 BGI: -10.69", 
+      "tick": "+1"
+    }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-06-18T19:55:49.262Z", 
-      "activity": 0.0489, 
+      "timestamp": "2016-06-18T20:00:51.293Z", 
+      "activity": 0.0475, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
-      "bolussnooze": 0.482, 
-      "iob": 1.541
+      "bolussnooze": 0.445, 
+      "iob": 1.378
     }, 
     "enacted": {
-      "bg": 184, 
+      "bg": 321, 
       "temp": "absolute", 
-      "snoozeBG": 136, 
+      "snoozeBG": 324, 
       "recieved": true, 
-      "reason": "Eventual BG 136>106 but Avg. Delta -3.00 < Exp. Delta -1.8; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
-      "rate": 0.675, 
-      "eventualBG": 136, 
-      "timestamp": "2016-06-17T13:01:01.255Z", 
+      "reason": "Eventual BG 294>=125, adj. req. rate:9.0 to maxSafeBasal:3.3, no temp, setting 3.3U/hr", 
+      "rate": 3.275, 
+      "eventualBG": 294, 
+      "timestamp": "2016-06-18T20:00:52.457Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 8 BGI: -1.35", 
-      "tick": -3
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 35 BGI: -10.69", 
+      "tick": "+1"
     }
   }
 }
