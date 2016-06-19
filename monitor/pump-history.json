@@ -1,5 +1,87 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-19T00:55:44 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-06-19T00:55:44-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c1d160b04143d04948304308d0414a104b0c90448dd0428f1047c2314", 
+        "data": [
+          {
+            "amount": 0.55, 
+            "age": 11
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 61
+          }, 
+          {
+            "amount": 3.7, 
+            "age": 131
+          }, 
+          {
+            "amount": 1.2, 
+            "age": 141
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 161
+          }, 
+          {
+            "amount": 4.4, 
+            "age": 201
+          }, 
+          {
+            "amount": 1.8, 
+            "age": 221
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 241
+          }, 
+          {
+            "amount": 3.1, 
+            "age": 291
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.0, 
+    "duration": 0, 
+    "amount": 1.0, 
+    "_head": "010a0a00", 
+    "type": "normal", 
+    "_date": "6cb7401310"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_byte[5]": 0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-06-19T00:55:44 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-06-19T00:55:44-07:00", 
+    "_body": "00500d2d6a000000000000007d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 13, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "carb_input": 0, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.0, 
+    "_date": "6cb7001310", 
+    "bg_target_low": 106
+  }, 
+  {
     "_type": "PumpResume", 
     "_description": "PumpResume 2016-06-19T00:49:53 head[2], body[0] op[0x1f]", 
     "timestamp": "2016-06-19T00:49:53-07:00", 
