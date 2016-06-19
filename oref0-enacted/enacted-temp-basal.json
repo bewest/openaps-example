@@ -1,13 +1,24 @@
 {
   "bg": 165, 
   "temp": "absolute", 
-  "snoozeBG": 141, 
-  "recieved": true, 
-  "rate": 0.675, 
-  "reason": "Eventual BG 84<106, bolus snooze: eventual BG range 84-141; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
-  "eventualBG": 84, 
-  "timestamp": "2016-06-19T05:32:59.679196", 
-  "duration": 30, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 1 BGI: -5.2", 
+  "snoozeBG": 151, 
+  "timestamp": "2016-06-19T05:36:59.552369", 
+  "missing": [
+    "duration", 
+    "rate"
+  ], 
+  "reason": "Eventual BG 99<106, bolus snooze: eventual BG range 99-151, temp 0.675 ~ req 0.7U/hr", 
+  "eventualBG": 99, 
+  "error": "missing required input fields", 
+  "input": {
+    "reason": "Eventual BG 99<106, bolus snooze: eventual BG range 99-151, temp 0.675 ~ req 0.7U/hr", 
+    "bg": 165, 
+    "eventualBG": 99, 
+    "temp": "absolute", 
+    "snoozeBG": 151, 
+    "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 13 BGI: -4.46", 
+    "tick": -5
+  }, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 13 BGI: -4.46", 
   "tick": -5
 }
