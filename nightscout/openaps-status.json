@@ -7,40 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-06-25T05:08:52.589Z", 
+      "timestamp": "2016-06-25T05:12:50.597Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 113.9, 
-    "clock": "2016-06-24T22:06:45-07:00"
+    "reservoir": 112.1, 
+    "clock": "2016-06-24T22:10:42-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 261, 
+      "temp": "absolute", 
+      "snoozeBG": 368, 
+      "timestamp": "2016-06-25T05:12:56.421Z", 
+      "rate": 0.9, 
+      "reason": "Eventual BG 66<106, but Avg. Delta 5.00 > Exp. Delta -0.6; setting current basal of 0.9 as temp. Setting neutral temp basal of 0.9U/hr", 
+      "eventualBG": 66, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 20 BGI: -1.62", 
+      "tick": "+5"
+    }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-06-25T05:09:00.329Z", 
-      "activity": 0.0059, 
+      "timestamp": "2016-06-25T05:12:56.293Z", 
+      "activity": 0.0072, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
-      "bolussnooze": 2.79, 
-      "iob": 3.013
+      "bolussnooze": 4.479, 
+      "iob": 4.783
     }, 
     "enacted": {
-      "requested": {
-        "duration": 30, 
-        "rate": 3.3, 
-        "temp": "absolute"
-      }, 
-      "bg": 242, 
+      "bg": 261, 
       "temp": "absolute", 
-      "snoozeBG": 245, 
-      "timestamp": "2016-06-25T03:05:03.634Z", 
-      "reason": "Eventual BG 245>=125, adj. req. rate:6.7 to maxSafeBasal:3.3, no temp, setting 3.3U/hr", 
-      "rate": 1.6, 
-      "eventualBG": 245, 
-      "recieved": false, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 3 BGI: 0", 
-      "tick": "+1"
+      "snoozeBG": 368, 
+      "recieved": true, 
+      "reason": "Eventual BG 66<106, but Avg. Delta 5.00 > Exp. Delta -0.6; setting current basal of 0.9 as temp. Setting neutral temp basal of 0.9U/hr", 
+      "rate": 0.9, 
+      "eventualBG": 66, 
+      "timestamp": "2016-06-25T05:12:57.425Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 20 BGI: -1.62", 
+      "tick": "+5"
     }
   }
 }
