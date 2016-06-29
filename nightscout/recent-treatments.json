@@ -1,86 +1,84 @@
 [
   {
-    "_type": "Prime", 
-    "_description": "Prime 2016-06-29T01:47:04 head[5], body[0] op[0x03]", 
-    "notes": "Prime 522 ", 
-    "timestamp": "2016-06-29T01:47:04-07:00", 
-    "_body": "", 
-    "_head": "0300000000", 
+    "carbs": "0", 
+    "ratio": "13", 
+    "bolus": {
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-06-29T01:49:21 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-06-29T01:49:21-07:00", 
+      "_body": "", 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c084c410478e104", 
+          "data": [
+            {
+              "amount": 1.9, 
+              "age": 65
+            }, 
+            {
+              "amount": 3, 
+              "age": 225
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "programmed": 2.2, 
+      "_head": "01161600", 
+      "amount": 2.2, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "55b1411d10"
+    }, 
+    "timestamp": "2016-06-29T01:49:20-07:00", 
+    "created_at": "2016-06-29T01:49:20-07:00", 
+    "wizard": {
+      "_type": "BolusWizard", 
+      "bg": 0, 
+      "bg_target_high": 125, 
+      "correction_estimate": 0, 
+      "unknown_byte[10]": 0, 
+      "_description": "BolusWizard 2016-06-29T01:49:20 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-06-29T01:49:20-07:00", 
+      "_body": "00500d2d6a000000000000007d", 
+      "unknown_byte[8]": 0, 
+      "bolus_estimate": 0, 
+      "carb_ratio": 13, 
+      "food_estimate": 0, 
+      "unabsorbed_insulin_total": 0, 
+      "_byte[5]": 0, 
+      "carb_input": 0, 
+      "_head": "5b00", 
+      "unabsorbed_insulin_count": "??", 
+      "_byte[7]": 0, 
+      "sensitivity": 45, 
+      "_date": "54b1011d10", 
+      "bg_target_low": 106
+    }, 
     "enteredBy": "openaps://medtronic/522", 
-    "amount": 0, 
+    "insulin": "2.2", 
+    "eventType": "Correction Bolus", 
+    "duration": "0", 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.2\nDelivered bolus 2.2\nPercent delivered:  100%\nFood estimate 0\nCorrection estimate 0\nBolus estimate 0\nTarget low 106\nTarget high 125\nHypothetical glucose delta -99.00000000000001", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-06-29T01:47:49 head[5], body[0] op[0x03]", 
+    "notes": "Prime 522 ", 
+    "timestamp": "2016-06-29T01:47:49-07:00", 
+    "_body": "", 
+    "_head": "0300040004", 
+    "enteredBy": "openaps://medtronic/522", 
+    "amount": 0.4, 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
     "eventType": "Note", 
-    "fixed": 0, 
-    "type": "manual", 
-    "created_at": "2016-06-29T01:47:04-07:00", 
-    "_date": "44af211d10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-06-29T01:44:46 head[2], body[0] op[0x21]", 
-    "notes": "Rewind 522 ", 
-    "timestamp": "2016-06-29T01:44:46-07:00", 
-    "_body": "", 
-    "_head": "2100", 
-    "enteredBy": "openaps://medtronic/522", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
-    "eventType": "Note", 
-    "created_at": "2016-06-29T01:44:46-07:00", 
-    "_date": "6eac011d10"
-  }, 
-  {
-    "_type": "ClearAlarm", 
-    "_description": "ClearAlarm 2016-06-29T01:44:43 head[2], body[0] op[0x0c]", 
-    "notes": "ClearAlarm 522 ", 
-    "timestamp": "2016-06-29T01:44:43-07:00", 
-    "_body": "", 
-    "_head": "0c04", 
-    "enteredBy": "openaps://medtronic/522", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ClearAlarm", 
-    "eventType": "Note", 
-    "created_at": "2016-06-29T01:44:43-07:00", 
-    "_date": "6bac011d10"
-  }, 
-  {
-    "_type": "AlarmPump", 
-    "_description": "AlarmPump 2016-06-29T01:40:08 head[4], body[0] op[0x06]", 
-    "notes": "AlarmPump 522 ", 
-    "timestamp": "2016-06-29T01:40:08-07:00", 
-    "_body": "", 
-    "_head": "06040bff", 
-    "enteredBy": "openaps://medtronic/522", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/AlarmPump", 
-    "eventType": "Note", 
-    "created_at": "2016-06-29T01:40:08-07:00", 
-    "_date": "48a8415d10"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-06-29T01:39:18 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-06-29T01:39:18-07:00", 
-      "_body": "00", 
-      "_head": "334a", 
-      "rate": 1.85, 
-      "_date": "52a7015d10"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-06-29T01:39:18 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-06-29T01:39:18-07:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "52a7015d10"
-    }, 
-    "created_at": "2016-06-29T01:39:18-07:00", 
-    "enteredBy": "openaps://medtronic/522", 
-    "rate": 1.85, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-06-29T01:39:18-07:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "1.85"
+    "fixed": 0.4, 
+    "type": "fixed", 
+    "created_at": "2016-06-29T01:47:49-07:00", 
+    "_date": "71af011d10"
   }
 ]
