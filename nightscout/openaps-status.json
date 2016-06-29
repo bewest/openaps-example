@@ -7,56 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-06-29T14:20:49.609Z", 
+      "timestamp": "2016-06-29T14:24:49.622Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 132.2, 
-    "clock": "2016-06-29T07:18:38-07:00"
+    "reservoir": 132, 
+    "clock": "2016-06-29T07:22:38-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 173, 
+      "bg": 177, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
-      "timestamp": "2016-06-29T14:20:57.774Z", 
-      "reason": "Eventual BG 135 >= 125, temp 2.125 >~ req 1.9U/hr", 
-      "eventualBG": 135, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 4 BGI: -1.19", 
-      "tick": "+1"
+      "snoozeBG": 142, 
+      "timestamp": "2016-06-29T14:24:57.914Z", 
+      "rate": 2.25, 
+      "reason": "Eventual BG 142 >= 125, temp 2.125<2.25U/hr", 
+      "eventualBG": 142, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 10 BGI: -1.28", 
+      "tick": "+4"
     }, 
     "iob": {
-      "netbasalinsulin": 1, 
-      "timestamp": "2016-06-29T14:20:57.646Z", 
-      "activity": 0.0053, 
-      "basaliob": 0.932, 
-      "hightempinsulin": 2.3, 
+      "netbasalinsulin": 1.2, 
+      "timestamp": "2016-06-29T14:24:57.786Z", 
+      "activity": 0.0057, 
+      "basaliob": 1.006, 
+      "hightempinsulin": 2.4, 
       "bolussnooze": 0, 
-      "iob": 0.932
+      "iob": 1.006
     }, 
     "enacted": {
-      "bg": 173, 
+      "bg": 177, 
       "temp": "absolute", 
-      "missing": [
-        "duration", 
-        "rate"
-      ], 
-      "timestamp": "2016-06-29T14:20:58.258Z", 
-      "snoozeBG": 135, 
-      "reason": "Eventual BG 135 >= 125, temp 2.125 >~ req 1.9U/hr", 
-      "eventualBG": 135, 
-      "error": "missing required input fields", 
-      "input": {
-        "bg": 173, 
-        "temp": "absolute", 
-        "snoozeBG": 135, 
-        "reason": "Eventual BG 135 >= 125, temp 2.125 >~ req 1.9U/hr", 
-        "eventualBG": 135, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 4 BGI: -1.19", 
-        "tick": "+1"
-      }, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 4 BGI: -1.19", 
-      "tick": "+1"
+      "snoozeBG": 142, 
+      "recieved": true, 
+      "reason": "Eventual BG 142 >= 125, temp 2.125<2.25U/hr", 
+      "rate": 2.25, 
+      "eventualBG": 142, 
+      "timestamp": "2016-06-29T14:24:58.947Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 10 BGI: -1.28", 
+      "tick": "+4"
     }
   }
 }
