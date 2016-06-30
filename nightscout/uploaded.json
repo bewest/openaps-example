@@ -3,23 +3,31 @@
     "ratio": "15", 
     "bolus": {
       "_type": "Bolus", 
-      "_description": "Bolus 2016-06-30T13:03:59 head[4], body[0] op[0x01]", 
-      "timestamp": "2016-06-30T13:03:59-07:00", 
+      "_description": "Bolus 2016-06-30T13:09:02 head[4], body[0] op[0x01]", 
+      "timestamp": "2016-06-30T13:09:02-07:00", 
       "_body": "", 
       "appended": [
         {
           "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+          "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
           "_body": "", 
-          "_head": "5c087813044c3104", 
+          "_head": "5c0e120504020f047819044c3704", 
           "data": [
             {
+              "amount": 0.45, 
+              "age": 5
+            }, 
+            {
+              "amount": 0.05, 
+              "age": 15
+            }, 
+            {
               "amount": 3, 
-              "age": 19
+              "age": 25
             }, 
             {
               "amount": 1.9, 
-              "age": 49
+              "age": 55
             }
           ], 
           "_date": ""
@@ -30,18 +38,18 @@
       "amount": 0.5, 
       "_head": "01050500", 
       "type": "normal", 
-      "_date": "7b834d1e10"
+      "_date": "42894d1e10"
     }, 
-    "timestamp": "2016-06-30T13:03:59-07:00", 
-    "created_at": "2016-06-30T13:03:59-07:00", 
+    "timestamp": "2016-06-30T13:09:02-07:00", 
+    "created_at": "2016-06-30T13:09:02-07:00", 
     "wizard": {
       "unknown_byte[8]": 0, 
       "_type": "BolusWizard", 
       "bg": 0, 
       "_byte[5]": 0, 
       "unknown_byte[10]": 0, 
-      "_description": "BolusWizard 2016-06-30T13:03:59 head[2], body[13] op[0x5b]", 
-      "timestamp": "2016-06-30T13:03:59-07:00", 
+      "_description": "BolusWizard 2016-06-30T13:09:02 head[2], body[13] op[0x5b]", 
+      "timestamp": "2016-06-30T13:09:02-07:00", 
       "_body": "00500f2d6a000000000000007d", 
       "bg_target_high": 125, 
       "sensitivity": 45, 
@@ -54,7 +62,7 @@
       "unabsorbed_insulin_count": "??", 
       "_byte[7]": 0, 
       "bolus_estimate": 0, 
-      "_date": "7b830d1e10", 
+      "_date": "42890d1e10", 
       "bg_target_low": 106
     }, 
     "enteredBy": "openaps://medtronic/522", 
