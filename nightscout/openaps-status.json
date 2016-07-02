@@ -7,35 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-02T13:20:49.617Z", 
+      "timestamp": "2016-07-02T13:24:49.713Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 96.4, 
-    "clock": "2016-07-02T06:18:35-07:00"
+    "clock": "2016-07-02T06:22:35-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 151, 
+      "temp": "absolute", 
+      "snoozeBG": 172, 
+      "timestamp": "2016-07-02T13:24:55.490Z", 
+      "rate": 2.8, 
+      "reason": "Eventual BG 172 >= 125, adj. req. rate: 3.2 to maxSafeBasal: 2.8, no temp, setting 2.8U/hr", 
+      "eventualBG": 172, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 13 BGI: 1.55", 
+      "tick": "+6"
+    }, 
     "iob": {
-      "netbasalinsulin": -1.15, 
-      "timestamp": "2016-07-02T13:20:55.125Z", 
+      "netbasalinsulin": -1.2, 
+      "timestamp": "2016-07-02T13:24:55.362Z", 
       "activity": -0.0069, 
-      "basaliob": -0.208, 
-      "hightempinsulin": 0.1, 
+      "basaliob": -0.188, 
+      "hightempinsulin": 0.05, 
       "bolussnooze": 0, 
-      "iob": -0.208
+      "iob": -0.188
     }, 
     "enacted": {
-      "bg": 74, 
+      "bg": 151, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
+      "snoozeBG": 172, 
       "recieved": true, 
-      "reason": "BG 74<78, avg delta 4.00>0; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
-      "rate": 0.675, 
-      "eventualBG": 123, 
-      "timestamp": "2016-07-02T11:36:47.531Z", 
+      "reason": "Eventual BG 172 >= 125, adj. req. rate: 3.2 to maxSafeBasal: 2.8, no temp, setting 2.8U/hr", 
+      "rate": 2.775, 
+      "eventualBG": 172, 
+      "timestamp": "2016-07-02T13:24:56.506Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 8 BGI: 1.28", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 13 BGI: 1.55", 
+      "tick": "+6"
     }
   }
 }
