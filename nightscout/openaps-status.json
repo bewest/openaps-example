@@ -7,54 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-04T10:37:54.756Z", 
+      "timestamp": "2016-07-04T10:41:56.792Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 36.2, 
-    "clock": "2016-07-04T03:34:33-07:00"
+    "clock": "2016-07-04T03:38:33-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 58, 
       "temp": "absolute", 
-      "snoozeBG": -1, 
-      "timestamp": "2016-07-04T10:38:01.464Z", 
-      "reason": "BG 58<78, but 23m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": -16, 
+      "snoozeBG": 2, 
+      "timestamp": "2016-07-04T10:42:02.937Z", 
+      "rate": 0, 
+      "reason": "BG 58<78", 
+      "eventualBG": -7, 
+      "duration": 30, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 35 BGI: -8.64", 
       "tick": "+4"
     }, 
     "iob": {
-      "netbasalinsulin": -0.25, 
-      "timestamp": "2016-07-04T10:38:01.336Z", 
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-07-04T10:42:02.805Z", 
       "activity": 0.0384, 
-      "basaliob": -0.248, 
+      "basaliob": -0.297, 
       "hightempinsulin": 0, 
-      "bolussnooze": 0.219, 
-      "iob": 2.424
+      "bolussnooze": 0.139, 
+      "iob": 2.22
     }, 
     "enacted": {
       "bg": 58, 
       "temp": "absolute", 
-      "missing": [
-        "duration", 
-        "rate"
-      ], 
-      "timestamp": "2016-07-04T10:38:01.972Z", 
-      "snoozeBG": -1, 
-      "reason": "BG 58<78, but 23m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": -16, 
-      "error": "missing required input fields", 
-      "input": {
-        "bg": 58, 
-        "temp": "absolute", 
-        "snoozeBG": -1, 
-        "reason": "BG 58<78, but 23m left and 0 ~ req 0U/hr: no action required", 
-        "eventualBG": -16, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 35 BGI: -8.64", 
-        "tick": "+4"
-      }, 
+      "snoozeBG": 2, 
+      "recieved": true, 
+      "reason": "BG 58<78", 
+      "rate": 0, 
+      "eventualBG": -7, 
+      "timestamp": "2016-07-04T10:42:03.949Z", 
+      "duration": 30, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 35 BGI: -8.64", 
       "tick": "+4"
     }
