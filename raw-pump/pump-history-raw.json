@@ -1,13 +1,87 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-05T08:18:44 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-07-05T08:18:44", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.55, 
+            "age": 124
+          }, 
+          {
+            "amount": 0.95, 
+            "age": 134
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c083e7c04268604", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.4, 
+    "_head": "01040400", 
+    "amount": 0.4, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6cd2480510"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 204, 
+    "bg_target_high": 125, 
+    "correction_estimate": 0.1, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-07-05T08:18:44 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-07-05T08:18:44", 
+    "_body": "00500f2d6a110000000b00067d", 
+    "carb_input": 0, 
+    "_head": "5bcc", 
+    "unabsorbed_insulin_total": 1.1, 
+    "_byte[5]": 17, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "6cd2080510", 
+    "bolus_estimate": 0.6, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 15, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 106, 
+    "sensitivity": 45
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-05T08:18:41 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-05T08:18:41", 
+    "_body": "", 
+    "_head": "0acc", 
+    "amount": 204, 
+    "_date": "69d2280510"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-07-05T06:56:27 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-05T06:56:27", 
+    "_body": "", 
+    "fixed": 0.4, 
+    "_head": "0300040004", 
+    "amount": 0.4, 
+    "_date": "5bf8060510"
+  }, 
+  {
     "_type": "Prime", 
     "type": "manual", 
     "_description": "Prime 2016-07-05T06:40:15 head[5], body[0] op[0x03]", 
     "timestamp": "2016-07-05T06:40:15", 
     "_body": "", 
     "fixed": 0.0, 
-    "_head": "0300000020", 
-    "amount": 3.2, 
+    "_head": "0300000034", 
+    "amount": 5.2, 
     "_date": "4fe8260510"
   }, 
   {
@@ -346,22 +420,5 @@
     "_head": "3355", 
     "rate": 2.125, 
     "_date": "5bdc004510"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2016-07-05T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2016-07-05T00:00:00", 
-    "_body": "0500a190ba030000057603163902602b00c302602b02185800480c00000007050200000c00e8000000", 
-    "_head": "6d", 
-    "_date": "6490"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-07-05T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2016-07-05T00:00:00", 
-    "_body": "", 
-    "valid_date": "2016-07-04", 
-    "_head": "0700000576", 
-    "_date": "6490"
   }
 ]
