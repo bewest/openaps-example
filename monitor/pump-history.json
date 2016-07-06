@@ -1,5 +1,48 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-06T05:36:11 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-07-06T05:36:11-07:00", 
+    "_body": "", 
+    "programmed": 0.4, 
+    "_head": "01040400", 
+    "amount": 0.4, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "4be4450610"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_byte[5]": 0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-07-06T05:36:11 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-07-06T05:36:11-07:00", 
+    "_body": "00500d2d6a000000000000007d", 
+    "bg_target_high": 125, 
+    "sensitivity": 45, 
+    "carb_ratio": 13, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "carb_input": 0, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.0, 
+    "_date": "4be4050610", 
+    "bg_target_low": 106
+  }, 
+  {
+    "_type": "PumpResume", 
+    "_description": "PumpResume 2016-07-06T05:35:02 head[2], body[0] op[0x1f]", 
+    "timestamp": "2016-07-06T05:35:02-07:00", 
+    "_body": "", 
+    "_head": "1f00", 
+    "_date": "42e3050610"
+  }, 
+  {
     "_type": "PumpSuspend", 
     "_description": "PumpSuspend 2016-07-06T05:24:40 head[2], body[0] op[0x1e]", 
     "timestamp": "2016-07-06T05:24:40-07:00", 
@@ -1125,24 +1168,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "57e4154510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-07-05T21:32:21 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-05T21:32:21-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "55e0154510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-05T21:32:21 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-05T21:32:21-07:00", 
-    "_body": "00", 
-    "_head": "3324", 
-    "rate": 0.9, 
-    "_date": "55e0154510"
   }
 ]
