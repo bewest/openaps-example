@@ -7,56 +7,52 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-06T12:25:54.518Z", 
+      "timestamp": "2016-07-06T12:30:54.529Z", 
       "bolusing": false, 
-      "suspended": false
+      "suspended": true
     }, 
     "reservoir": 108.4, 
-    "clock": "2016-07-06T05:22:31-07:00"
+    "clock": "2016-07-06T05:26:31-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 167, 
+      "bg": 163, 
       "temp": "absolute", 
-      "snoozeBG": 118, 
-      "timestamp": "2016-07-06T12:26:03.566Z", 
-      "reason": "118-118 in range: no temp required; setting current basal of 0.7 as temp, but 27m left and 0.675 ~ req 0.7U/hr: no action required", 
-      "eventualBG": 118, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 0 BGI: -1.91", 
-      "tick": "+12"
+      "snoozeBG": 104, 
+      "timestamp": "2016-07-06T12:31:03.761Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 104 < 106, setting -0.325U/hr", 
+      "eventualBG": 104, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: -11 BGI: -1.89", 
+      "tick": -4
     }, 
     "iob": {
-      "netbasalinsulin": 2.1, 
-      "timestamp": "2016-07-06T12:26:03.418Z", 
-      "activity": 0.0085, 
-      "basaliob": 1.083, 
-      "hightempinsulin": 2.5, 
+      "netbasalinsulin": 1.95, 
+      "timestamp": "2016-07-06T12:31:03.613Z", 
+      "activity": 0.0084, 
+      "basaliob": 1.057, 
+      "hightempinsulin": 2.35, 
       "bolussnooze": 0, 
-      "iob": 1.083
+      "iob": 1.057
     }, 
     "enacted": {
-      "bg": 167, 
-      "temp": "absolute", 
-      "missing": [
-        "duration", 
-        "rate"
-      ], 
-      "timestamp": "2016-07-06T12:26:04.174Z", 
-      "snoozeBG": 118, 
-      "reason": "118-118 in range: no temp required; setting current basal of 0.7 as temp, but 27m left and 0.675 ~ req 0.7U/hr: no action required", 
-      "eventualBG": 118, 
-      "error": "missing required input fields", 
-      "input": {
-        "bg": 167, 
-        "temp": "absolute", 
-        "snoozeBG": 118, 
-        "reason": "118-118 in range: no temp required; setting current basal of 0.7 as temp, but 27m left and 0.675 ~ req 0.7U/hr: no action required", 
-        "eventualBG": 118, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 0 BGI: -1.91", 
-        "tick": "+12"
+      "requested": {
+        "duration": 30, 
+        "rate": 0, 
+        "temp": "absolute"
       }, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: 0 BGI: -1.91", 
-      "tick": "+12"
+      "bg": 163, 
+      "temp": "absolute", 
+      "snoozeBG": 104, 
+      "timestamp": "2016-07-06T12:31:11.197Z", 
+      "reason": "Eventual BG 104 < 106, setting -0.325U/hr", 
+      "rate": 0.675, 
+      "eventualBG": 104, 
+      "recieved": false, 
+      "duration": 22, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 45, Target: 116 Deviation: -11 BGI: -1.89", 
+      "tick": -4
     }
   }
 }
